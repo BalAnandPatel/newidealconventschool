@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Mirrored from www.kidsacademyprayagraj.com/web.php?pageurl=photo-gallery by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 20 May 2023 05:47:09 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head><title>
+	Welcome To Kids Academy, Pryagaraj
+</title><meta name="description" content="" /><link rel="shortcut icon" href="Images/favicon.png" /><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <script src="jquery/3.3.1/jquery.min.js"></script>
+    <script src="jquery/1.9.0/jquery.min.js"></script>
+    <script src="js/skdslider.min.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script src="js/shine.js"></script>
+    <script src="js/skdslider.min.js"></script>
+    <link href="StyleSheet/Slider_CSS/skdslider.css" rel="stylesheet" />
+    <link href="StyleSheet/Slider_CSS/StyleSheet.css" rel="stylesheet" />
+    <link href="StyleSheet/animation.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet" />
+    <link href="StyleSheet/StyleSheet4dbf.css" rel="stylesheet" />
+     <link href="StyleSheet/StyleSheetc0eb.css" rel="stylesheet" />
+    <link href="StyleSheet/responsive.css" rel="stylesheet" />
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".menu-icon").click(function () {
+                $(".menu").slideToggle(500), $(this).toggleClass("activeT");
+                $('.menu li ul').slideUp();
+            });
+
+            var menuwidth = $(window).width()
+            if (menuwidth < 1030) {
+                $('.menu li .click_in').click(function () {
+                    $('.menu li ul').slideUp('500');
+                    $(this).next('ul').slideUp('500');
+                    if ($(this).next('ul').is(':hidden')) { $(this).next('ul').slideDown('500'); }
+                    else {
+                        $(this).next('ul').slideUp('500');
+                    };
+                });
+
+               
+             
+                $('.click_in1').click(function () {
+                    // $(this).next('ul').slideToggle('500');
+                    $('.click_in1').next('ul').slideUp('500');
+                    if ($(this).next('ul').is(':hidden')) { $(this).next('ul').slideDown('500'); }
+                    else {
+                        $(this).next('ul').slideUp('500');
+                    };
+
+
+                });
+            }
+
+        });
+    </script>
+    
+    <script>
+        $(document).ready(function () {
+            $('#slides').flexslider({
+                animation: "fade",
+                slideshowSpeed: 4500,
+                animationSpeed: 600
+
+            });
+        });
+    </script>
+    <style>
+        ul.main {
+    text-align: center;
+    width: 1050px;
+    margin-left: 250px;
+}
+
+        .oasis-tab {
+    position: absolute;
+    right: 10px;
+    top: 195px;
+    z-index:999;
+    width:250px;
+}
+
+    .oasis-tab a {
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    background: #3652bc;
+    text-align: center;
+    display: inline-block;
+    padding: 13px 35px;
+    animation: blinkingText 1.5s infinite;
+    font-weight: 600;
+    width:100%;
+    display:block;
+    margin-top:20px;
+}
+     @keyframes blinkingText {
+
+        0%   {background: #3652bc;}
+      50%  {background: #ccd02b; color:#000;font-weight: 600;font-size: 15px;}     
+      100% {background: #3652bc;}
+
+    
+        }
+
+        #msgurgent { display: none; z-index: 1000000; position: fixed; left: 0; top: 0; background-color: #000;width: 100%; height: 100vh;color: #fff;text-align: center;}
+#msgurgent .browsermsg   { position: relative; left: 0;right: 0;top: 30%; bottom: 0;margin: auto; width: 370px; height: 130px;background-color: #fff; color: #000; padding: 20px; line-height: 30px;  border: 1px solid #727272;}
+.browsermsg p{text-align: left;}
+.browsermsg p, .browsermsg ul li span, .browsermsg ul li a{ font-size: 13px; line-height: 16px; color: #000; font-weight: normal;}
+.browsermsg ul li span, .browsermsg ul li a{text-align: center; display: inline-block; border: 1px solid #727272;float: left; padding: 4px 8px; text-transform: capitalize; width: 140px; margin: 0 8px;}
+.browsermsg ul{ margin-top: 23px; display: inline-block;}
+.browsermsg ul li span{ cursor: pointer;}
+.browsermsg ul li {display: inline-block; float: left;}
+.flex-control-nav {left: 49%; text-align: inherit;}
+        .menu {
+            margin-top: 40px;
+        }
+        .menu_top ul.main li a:hover {
+    background: #cccf00;
+    transition: .6s;
+}
+
+ul.menu li > .submenu {
+    display: none;
+    position: absolute;
+    padding: 0px;
+    z-index: 999999998;
+    min-width: 100%;
+    left: 0;
+    float: left;
+}
+.submenu li > ul, .submenu li ul li > ul {
+    display: none;
+}
+
+.submenu-child-right {
+    right: 100%;
+    left: inherit !important;
+}
+ul.menu li > .submenu li:hover a {
+    background: #3652bc;
+    color: #fff;
+}
+.extra_link {
+    position: absolute;
+    top: 54px;
+    right: 10px;
+}
+
+
+@media screen and (min-width:0px) and (max-width:1024px) {
+ .flex-control-nav {left:0; text-align: center;}
+.menu_top { width: 100%;  line-height:initial;}
+.main_menu { width: 100%; height: auto;  margin-top: 0;}
+.tabmenu {display: inline-block; cursor: pointer;}
+.line1, .line2, .line3 { width: 35px;  height: 3px;  background-color: #fff;  margin: 6px 0; transition: 0.4s;}
+.activeT .line1 { -webkit-transform: rotate(-45deg) translate(-8px, 7px);  transform: rotate(-45deg) translate(-8px, 7px);}
+.activeT .line2 {opacity: 0;}
+.activeT .line3 { -webkit-transform: rotate(45deg) translate(-5px, -5px);  transform: rotate(45deg) translate(-5px, -5px);}
+.menu { width: 100%;display: none;margin-left: 1%;overflow: hidden;top: 0;margin: 0 !important;height: auto;position: static;}
+.menu-icon{    width: 100%;    float: left;    text-align: center;    height: 38px;    padding: 2px 0 0 0;    margin: 8px 0 9px 0%;    display: block;    background: #3652bc;    cursor: pointer;}
+.menu li { float: none;width: 100%;margin-right: 0px;}
+/*ul.submenu { position: static;    width: 100%;    background: #3757d0;    left: 0;}*/
+ul.dropmenu { position: static;   width: 100%;    float: left;    text-align: center;}
+ul.submenu li {  width: 100%;  text-align: center;}
+.extra_link {
+    position: static;
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-top: 5px;
+    background: #c5cb13;
+}
+
+}
+
+
+ @media screen and (max-width:1100px) {
+            .submenu li ul {position: static; background: #4863d0;}
+            ul.submenu2{ width:100%;}
+        }
+
+
+        @media screen and (min-width: 0px) and (max-width: 767px) {
+
+
+            ul.main {
+                padding: 10px 15px;
+                max-width: 100%;
+                margin-left: 0 !important;
+            }
+            .oasis-tab {
+    position: static;
+    text-align: center;
+}
+        }
+    </style>
+
+    <script>
+
+
+        $(document).ready(function () {
+            $('#slides').flexslider({
+                animation: "fade",
+                slideshowSpeed: 4500,
+                animationSpeed: 600
+
+            });
+        });
+
+    </script>
+       <script src="js/jcarousellite_1.0.1c4.js"></script>
+
+    <script type="text/javascript">
+        $(function () {
+
+            $(".news_run").jCarouselLite({
+                vertical: true,
+                hoverPause: true,
+                btnPrev: ".gryl",
+                btnNext: ".gryR",
+                visible: 1,
+                auto: 3000,
+                speed: 800,
+            });
+        });
+        $(function () {
+
+            $(".event_run").jCarouselLite({
+                vertical: true,
+                hoverPause: true,
+                btnPrev: ".L_all",
+                btnNext: ".V_all",
+                visible: 2,
+                auto: 3000,
+                speed: 800,
+            });
+        });
+
+        $(function () {
+            $(".mangment_run").jCarouselLite({
+                vertical: true,
+                hoverPause: true,
+                btnPrev: ".manegmntL",
+                btnNext: ".manegmntR",
+                visible: 1,
+                auto: 3000,
+                speed: 800,
+            });
+        });
+        $(function () {
+            $("#bdayy").jCarouselLite({
+                horizontal: true,
+                hoverPause: true,
+                btnPrev: ".l_next_b",
+                btnNext: ".r_next_b",
+                visible: 1,
+                auto: 3000,
+                speed: 800,
+            });
+        });
+        $(function () {
+            $("#gallry").jCarouselLite({
+                horizontal: true,
+                hoverPause: true,
+                btnPrev: ".left_next_b",
+                btnNext: ".right_next_b",
+                visible: 2,
+                auto: 3000,
+                speed: 800,
+            });
+        });
+    </script>
+    <style>
+        ul.main {
+    text-align: center;
+    width: 1050px;
+    margin-left: 250px;
+}
+        .master-cont {
+    width: 100%;
+    float: left;
+  
+    margin: auto;
+}
+        .logo {z-index:11111111;
+        }
+
+        .fixed {
+position: fixed;
+
+}
+
+.fixed_1 {
+   top: 0px;
+   transition: top .3s ease-in;
+   margin-top: 0px;
+}
+.menu-wrapper,.slide-menu_master{ transition: top .6s ease-in;}
+        .Menu_fixed {
+    width: 272px;
+    float: left;
+    position: fixed;    z-index:99999;
+}
+
+     .menu_1 {
+    width: 100%;
+    height: 44px;
+    background: #3652bc;
+    transition: .6s;
+    z-index:99999;
+    position: fixed;
+    max-width: 1500px;
+}
+       .heding-mastr {
+    width: 100%;
+    margin: 0 auto;
+
+    /* background-color: #f4f4f4; */
+       padding: 77px 30px 50px 30px;
+    float: left;
+    box-sizing: border-box;
+}
+     
+        .main_menu {height:532px; margin-top: 73px;
+        }
+          @media screen and (max-width:1024px) {
+             
+            .master-content {
+    width: 100% !important;
+    float: left !important;
+    padding-left: 0 !important;
+}
+            .master-content {
+    width: 100%;
+   
+    min-height: 421px !important;
+   
+    float: left;
+    padding-left: 272PX;
+    max-width: 1500px;
+    BOX-SIZING: border-box;
+}
+          
+    .master-content {height:auto
+    }
+            .master_inn p {
+    text-align: justify;
+   
+}
+          @media screen and (max-width:768px) {
+            .main_menu {
+                margin-top: 75px;height:auto;
+            }
+        }
+        @media screen and (max-width:767px) {
+            .master_inn img {width:100%;}
+             .main_menu {
+    height: auto;
+    margin-top: 240px;
+}
+        }
+      
+      
+            .heding-mastr {
+                margin: 30px 0 30px 0 !important;
+                padding: 0 15px;
+            }
+ 
+       .Menu_fixed {
+    width: 100%;
+    float: none;
+    position:static!important;
+}
+      
+       .menu_1 {
+    width: 100%;
+    height: 44px;
+    background: #3652bc;
+    transition: .6s;
+    z-index:99999;
+    position: static;
+}
+
+        }
+        div#headtitle {    text-transform: uppercase;}
+        @media screen and (max-width:1100px) {
+            .submenu li ul {position: static; background: #4863d0;}
+            ul.submenu2{ width:100%; position:fixed}
+.master_inn img {float: none!important;padding: 0;  margin: 0 auto; display: block;}
+        }
+
+
+
+.master-content {
+    width: 100%;
+   
+    min-height: 699px;
+   
+    float: left;
+    padding-left: 272PX;
+    max-width: 1500px;
+    BOX-SIZING: border-box;
+}
+
+        .full-master-wrap {
+            width: 100%;
+            float: left;
+        }
+        .mid-master {
+            width: 100%;
+            max-width: 1500px;
+            margin: 0 auto;
+        }
+        .wrap_mast {
+            width: 100%;
+            float: left;
+        }
+       @media screen and (min-width: 0px) and (max-width: 767px) {
+
+
+            ul.main {
+                padding: 10px 15px;
+                max-width: 100%;
+                margin-left: 0 !important;
+            }
+            
+        }
+    </style>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+</head>
+
+
+<body>
+<script src="WebResource34703470.js?d=IBU4_SBsG454NpQQgbRigSsgGc5xKvrQaF9UDnyBElxgUCpg93nWs3R9U-n6viNeJgoiJBBPwYhFNxGI8tOUMqJe1NQ1&amp;t=637292261023430478" type="text/javascript"></script>
+
+
+<script src="ScriptResourceb109b109.js?d=GBCEwi6Sg54k5l-zyTTNR9X51E2TVWVf0bkcg_Mcb5GJ5OXettJBU_NvE2UFQLzBPk_PPQBrCCzRw6thAFJ0Ben-d_uztl6UnmvnaFKHGmnnyBfTyE3Wz35kbE0RRGhTyWXrBvyimmqAWC2VBeMMDb3l2bzM_CQrulURYBta3UGA-DGG0&amp;t=3f4a792d" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="ScriptResource6fba6fba.js?d=57cyUNbyj_L95orvsNEzaO4bfDw2cxWzudv-2M6xerbe6Ar-9p1JuMERVJLZ2X6dn5jpTWcxJqB5z-0LK61UCJ7XnAM2GiuFnmopIbs1iDflTZCScRL9pIwtKspJwTenWQStXdHzIZTAGbPWRG5h9yPMdEB05SMEj3oWr2azfKSyycqu0&amp;t=3f4a792d" type="text/javascript"></script>
+<script src="ScriptResourceeebceebc.html?d=0s75-iZnH_nfMcl9PAg0hXm1HwDs5sZTAT8Aq1GG_3xWHkJ0Oy4t-EGUqv6oB7K8SVFiONSR2Bgr-iKa4wrpyHjyaJeY5N-QDr2ViSDghgDTDHRIDiYbLYU6-etui-bWhtmgot7DYxAwaZ-gyPfaHQP-ksc1&amp;t=5f6a2d32" type="text/javascript"></script>
+<script src="ScriptResource21c221c2.html?d=RCbVSbknoNWpgGQR-huOV-IZz9Gm1ycw6qsNNAwEMc8zNcr_FBZYNzHx_08DMmTOT42FbwH7wNZEeHma2GvRXGuSeaKg36qA1L-rcqq8IMaY38gPvmz1cJSVsxqzLHgX5tXa6PLjTBBAlZB3blgJhzc_ZUg1&amp;t=5f6a2d32" type="text/javascript"></script>
+<script src="ScriptResource0d950d95.html?d=DfzHrqa_3x6i2QWggQLZsRnjrEkWL0B2I2M0PU7Z4w9F9ZQW8KMfWJ5GlPkKtnBwyA2lSNql7zH-YhcIxL-1rL_BFqkyLTk1-L0Z-fmBzFN_1TA8QZeUn-ACcdpQQce9lqiNS5I1HOViGS2Z1zP2fR28li2uJ0empT7CtLw-9OtY0a_B0&amp;t=5f6a2d32" type="text/javascript"></script>
+<script src="ScriptResource62076207.html?d=daeFODJvF-HCxftHeqiNFS7fKgu4g-udgjtAkjhRo94Qw9aNS3nE8RcO14fVaaXtS53-8MzB9lL6-mmzoxMO75SZ2Cz-2vZNTCmoQoUuaX-QkIbOs99SaxjSYCzqwLiQtq9j7eoWpmtg1v2mz80sFURoky41&amp;t=5f6a2d32" type="text/javascript"></script>
+<script src="ScriptResourced4c5d4c5.html?d=muT-FgbCETONYe_k2PlkIayRC288JmyqrvyeEp9uQGP_1zQVnNz2K-hSKoYcAZhA-1zQr1PDCAMHGAyedawr8wEjDIOR_2bkRSXSJtP47lENxTIkD6lHuupuUJPzEMWRDFrzM3JRhfV2Rawo5Nb_2K1FNJs1&amp;t=5f6a2d32" type="text/javascript"></script>
+<script src="ScriptResource0b000b00.html?d=si0wpzQwHIvjyCdf9-NeYtIlG0twOXm7tLezBZZigGGRy7IY0dzsMBlKNkpLfypYR0KeesWinemG2-Cj8jmxJSWMYleCg0i6ThZlcgkauqp9pNnJ4ogUinL1q1NwQeId79uTSJhRKAHwKoT0tFau3Qc_5aDIdw1Fmq6IbQh3buAhBkLw0&amp;t=5f6a2d32" type="text/javascript"></script>
+<script src="ScriptResource208f208f.html?d=5AVq8twzY-BJIcJp6u0bJxM67tqHMYUix5N2kpyTFcM1YZtV48mPPeJjfw8jAAZA9NcEzBBj3MCJoR-EauDypawhmcge7xoIFj7ZxJbsHMBKbuKeA6dplpN76fw3eK5ykIXuqAW5y3pBfxQuGGiqKORhwfH3qlw9cHMarFnhlsD40Bgr0&amp;t=5f6a2d32" type="text/javascript"></script>
+<script src="ScriptResourcea3a2a3a2.html?d=-wsZCLLAobwOUP6RHVluhC-IHfg7nHTdhOlm2k8rlkCyvg0iQLlNlDAsq5SjCOJO9sjpLIJbT8eLf-s7dqdOkd8vXZJAJMMQe7b6sZ4NR0dJiccPU-NmCA8kzX8gTATUcVzp2ji7bz1RNEBhctIRueKZQIen3Qb4etcOKXR0RKC7xrGG0&amp;t=5f6a2d32" type="text/javascript"></script>
+<script src="ScriptResource8d9d8d9d.html?d=bX3haOHiKLY9y8V37cXIEDKw1E78hpNTv5rQugNm2Ap-3wjweKcdKyUsRhcXyScSrkeUhSXrSUU0D3JQ_82QwP2kC4FssQ_lan2Djt3MYprgEykEwGJsRMT2a15w7oOKmZYb4s71NaswGSnsTLy04fZuPnM_ArnF9Y5nboWsPlJUlFdO0&amp;t=5f6a2d32" type="text/javascript"></script>
+
+        <div class="full-master-wrap">
+            <div class="mid-master">
+                <div class="wrap_mast">
+        <div class="full">
+          
+            <div class="Menu_fixed">
+            <div class="logo">
+                <div id="logo">
+                    <div class="slogoinner ">
+                        <a href="index-2.html" title="Kids Academy, Prayagraj">
+                            <img src="logo.png" frameborder="0" width="240" height="105" class="logo_main">
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+                  <div class="menu_1">
+                <div class="menu_top">
+                    <ul class="main">
+                            <li><a href="index-2.html">Home</a></li>
+                            <li><a href="webfacd.html?pageurl=infrastructure">Infrastructure</a></li>
+                           
+                      <li><a href="#">Achievements</a></li>
+                            <li><a href="web1787.html?pageurl=admission">Admission</a></li>
+                           <li><a href="web455a.html?pageurl=download">Important Downloads</a></li>
+                            <li><a href="web9bab.html?pageurl=tcsearch">Transfer Certificate</a> </li>
+                           
+                        </li>
+ <li><a href="web9b24.html?pageurl=mandatary">Mandatory Public Disclosure</a></li>
+
+
+
+                        </ul>
+                </div>
+            </div>
+            <div class="main_menu">
+
+                <div class="menu-icon">
+                    <div class="tabmenu">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </div>
+                </div>
+
+                <div class="menu" id="menu">
+                    <ul class="dropmenu masterMenu">
+                        <li><a href="javascript:void(0)" class="click_in">about us</a>
+                            <ul class="submenu abu_us">
+
+                                    <li><a href="webedd0.html?pageurl=about_us">About School</a></li>
+                                   
+                                    <li><a href="webf8b1.html?pageurl=mission">Vision and Mission</a></li>
+                                     <li><a href="webc650.html?pageurl=logo">Logo of School</a></li>
+                                     <li><a href="web0c44.html?pageurl=aim">Aims and Objectives</a></li>
+                                       <li><a href="webfacd.html?pageurl=infrastructure">Infrastructure</a></li>
+                                </ul>
+                            </li>
+                           
+                           
+                              <li><a href="javascript:void(0)" class="click_in">Messages</a>
+                            <ul class="submenu prospes">
+                                <li><a href="web3d53.html?pageurl=managersms">Director Message</a></li>
+                               <li><a href="web98a5.html?pageurl=principalsms">Principal Message</a></li>
+                                
+                            </ul>
+                        </li>
+								<li><a href="javascript:void(0)" class="click_in">Gallery</a>
+                                <ul class="submenu prospes">
+                                    <li><a href="webe426.html?pageurl=photo-gallery">Photo Gallery</a></li>
+                                    <li><a href="web8beb.html?pageurl=videogallery">Video Gallery</a></li>
+                                    <li><a href="#">Media Gallery</a></li>
+                                 
+                           
+                           
+                                </ul>
+                            </li>
+                            <li><a href="javascript:void(0)" class="click_in">Kids' Family</a>
+                                <ul class="submenu prospes">
+                                    <li><a href="#">Teachers' Group Photos</a></li>
+                                    <li><a href="#">Class Group Photos</a></li>
+                                    
+                                </ul>
+                            </li>
+                            <li><a href="pdf/Calendar%2022-%2023.pdf" target="_blank">School Calendar 2022-23</a> </li>
+                            <li><a href="javascript:void(0)" class="click_in">Contact Us</a>
+                                <ul class="submenu off_bear">
+                                    
+                                    <li><a href="webbdb4.html?pageurl=contact">Mail Us</a></li>
+                                    
+                                  
+                                </ul>
+                            </li>
+                      
+                        </ul>
+                 </div>
+                </div>
+            <div class="icos">
+                    <div class="icons-in">
+                        <ul>
+                            <li><a class="soc_iconh soc_icon1 " href="#" title="iPhone mobile app" target="_blank"></a></li>
+                       
+                            <li><a class="soc_iconh soc_icon3 " href="#" title="Google play store" target="_blank"></a></li>
+                                   <li><a class="soc_iconh soc_icon4 " href="#" title="Mail Us" ></a></li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                  </div>
+
+          
+
+
+            </div>
+        <div class="master-content">
+             <link href="css/reset.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+.style1 {color: #000000}
+-->
+</style>
+<div class="heding-mastr">
+                <div class="inner-master" id="headtitle">
+
+                    <h1 class="mei-heding">
+                        
+    Photo <span>Gallery</span>
+
+                    </h1>
+
+                </div>
+  <div class="txt_bx">   
+    <div class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp; -webkit-animation-name: fadeInUp;">
+  <div id="album_wrapper">
+        <div class='folder_holder' id=1><a href='web94e1.html?pageurl=photos&amp;title=Quiz%20Contest'><div class='folder_holder_img' id='folder_1'><img id='1' src='Photogallery/73079389.jpg' width='200' height='200'><img id='2' src='Photogallery/2117311202.jpg' width='200' height='200'><img id='3' src='Photogallery/2053819286.jpg' width='200' height='200'><img id='4' src='Photogallery/1514908495.jpg' width='200' height='200'><img id='5' src='Photogallery/667957392.jpg' width='200' height='200'><img id='6' src='Photogallery/413231352.jpg' width='200' height='200'><img id='7' src='Photogallery/411016651.jpg' width='200' height='200'><img id='8' src='Photogallery/1529774936.jpg' width='200' height='200'></div></a><h3><a href='web94e1.html?pageurl=photos&amp;title=Quiz%20Contest'>Quiz Contest</a></h3><h4>9 photos</h4><h2> </h2></div><div class='folder_holder' id=2><a href='web5b1b.html?pageurl=photos&amp;title=Investiture%20ceremony%20session%202022-2023'><div class='folder_holder_img' id='folder_2'><img id='1' src='Photogallery/2077540742.jpg' width='200' height='200'><img id='2' src='Photogallery/2050818421.jpg' width='200' height='200'><img id='3' src='Photogallery/1688775801.jpg' width='200' height='200'><img id='4' src='Photogallery/857072081.jpg' width='200' height='200'><img id='5' src='Photogallery/689293663.jpg' width='200' height='200'><img id='6' src='Photogallery/1968401081.jpg' width='200' height='200'></div></a><h3><a href='web5b1b.html?pageurl=photos&amp;title=Investiture%20ceremony%20session%202022-2023'>Investiture ceremony session 2022-2023</a></h3><h4>7 photos</h4><h2> </h2></div><div class='folder_holder' id=3><a href='web3e18.html?pageurl=photos&amp;title=Celebration%20of%20Reading%20Week'><div class='folder_holder_img' id='folder_3'><img id='1' src='Photogallery/239022291.jpg' width='200' height='200'><img id='2' src='Photogallery/1558966498.jpg' width='200' height='200'><img id='3' src='Photogallery/640036976.jpg' width='200' height='200'><img id='4' src='Photogallery/1480335634.jpg' width='200' height='200'><img id='5' src='Photogallery/964203257.jpg' width='200' height='200'><img id='6' src='Photogallery/1426113685.jpg' width='200' height='200'></div></a><h3><a href='web3e18.html?pageurl=photos&amp;title=Celebration%20of%20Reading%20Week'>Celebration of Reading Week</a></h3><h4>7 photos</h4><h2> </h2></div><div class='folder_holder' id=4><a href='web43ee.html?pageurl=photos&amp;title=21%20June%20Yoga%20Day'><div class='folder_holder_img' id='folder_4'><img id='1' src='Photogallery/637857872.jpg' width='200' height='200'><img id='2' src='Photogallery/744845607.jpg' width='200' height='200'><img id='3' src='Photogallery/1625032645.jpg' width='200' height='200'><img id='4' src='Photogallery/804096628.jpg' width='200' height='200'><img id='5' src='Photogallery/1604565702.jpg' width='200' height='200'><img id='6' src='Photogallery/1235656444.jpg' width='200' height='200'><img id='7' src='Photogallery/1194162838.jpg' width='200' height='200'><img id='8' src='Photogallery/657650061.jpg' width='200' height='200'><img id='9' src='Photogallery/1748258994.jpg' width='200' height='200'><img id='10' src='Photogallery/251449908.jpg' width='200' height='200'><img id='11' src='Photogallery/842100940.jpg' width='200' height='200'><img id='12' src='Photogallery/1159567734.jpg' width='200' height='200'><img id='13' src='Photogallery/1393421817.jpg' width='200' height='200'><img id='14' src='Photogallery/1507514915.jpg' width='200' height='200'><img id='15' src='Photogallery/1139556349.jpg' width='200' height='200'><img id='16' src='Photogallery/1338321356.jpg' width='200' height='200'><img id='17' src='Photogallery/2063980398.jpg' width='200' height='200'><img id='18' src='Photogallery/141666847.jpg' width='200' height='200'><img id='19' src='Photogallery/1474843552.jpg' width='200' height='200'></div></a><h3><a href='web43ee.html?pageurl=photos&amp;title=21%20June%20Yoga%20Day'>21 June Yoga Day</a></h3><h4>20 photos</h4><h2> </h2></div><div class='folder_holder' id=5><a href='webd40d.html?pageurl=photos&amp;title=Participation%20at%20Esperanza%20SHAUTS'><div class='folder_holder_img' id='folder_5'></div></a><h3><a href='webd40d.html?pageurl=photos&amp;title=Participation%20at%20Esperanza%20SHAUTS'>Participation at Esperanza SHAUTS</a></h3><h4>0 photos</h4><h2> </h2></div><div class='folder_holder' id=6><a href='webd5b2.html?pageurl=photos&amp;title=Annual%20Sports%20Day'><div class='folder_holder_img' id='folder_6'><img id='1' src='Photogallery/1298056145.jpg' width='200' height='200'><img id='2' src='Photogallery/887099848.jpg' width='200' height='200'><img id='3' src='Photogallery/2121612990.jpg' width='200' height='200'><img id='4' src='Photogallery/1370660080.jpg' width='200' height='200'><img id='5' src='Photogallery/1111207550.jpg' width='200' height='200'><img id='6' src='Photogallery/1208798624.jpg' width='200' height='200'><img id='7' src='Photogallery/1642433019.jpg' width='200' height='200'><img id='8' src='Photogallery/1898626677.jpg' width='200' height='200'><img id='9' src='Photogallery/1308305134.jpg' width='200' height='200'><img id='10' src='Photogallery/745758474.jpg' width='200' height='200'><img id='11' src='Photogallery/1122362819.jpg' width='200' height='200'><img id='12' src='Photogallery/1615905733.jpg' width='200' height='200'><img id='13' src='Photogallery/1676523237.jpg' width='200' height='200'><img id='14' src='Photogallery/875424661.jpg' width='200' height='200'><img id='15' src='Photogallery/1897691429.jpg' width='200' height='200'><img id='16' src='Photogallery/175308146.jpg' width='200' height='200'><img id='17' src='Photogallery/862406089.jpg' width='200' height='200'><img id='18' src='Photogallery/127018236.jpg' width='200' height='200'><img id='19' src='Photogallery/1550608876.jpg' width='200' height='200'></div></a><h3><a href='webd5b2.html?pageurl=photos&amp;title=Annual%20Sports%20Day'>Annual Sports Day</a></h3><h4>20 photos</h4><h2> </h2></div><div class='folder_holder' id=7><a href='webc662.html?pageurl=photos&amp;title=ART%20INTEGRATED%20PROJECTS'><div class='folder_holder_img' id='folder_7'><img id='1' src='Photogallery/1922035447.jpg' width='200' height='200'><img id='2' src='Photogallery/1429176027.jpg' width='200' height='200'><img id='3' src='Photogallery/1199672052.jpg' width='200' height='200'><img id='4' src='Photogallery/1803665446.jpg' width='200' height='200'><img id='5' src='Photogallery/1345107498.jpg' width='200' height='200'><img id='6' src='Photogallery/1845470731.jpg' width='200' height='200'><img id='7' src='Photogallery/1421129196.jpg' width='200' height='200'><img id='8' src='Photogallery/467190659.jpg' width='200' height='200'></div></a><h3><a href='webc662.html?pageurl=photos&amp;title=ART%20INTEGRATED%20PROJECTS'>ART INTEGRATED PROJECTS</a></h3><h4>9 photos</h4><h2> </h2></div><div class='folder_holder' id=8><a href='web30b9.html?pageurl=photos&amp;title=Bal%20Mela'><div class='folder_holder_img' id='folder_8'><img id='1' src='Photogallery/391034616.jpg' width='200' height='200'><img id='2' src='Photogallery/21570225.jpg' width='200' height='200'><img id='3' src='Photogallery/1692992807.jpg' width='200' height='200'><img id='4' src='Photogallery/1774153416.jpg' width='200' height='200'><img id='5' src='Photogallery/287986248.jpg' width='200' height='200'><img id='6' src='Photogallery/1421574214.jpg' width='200' height='200'><img id='7' src='Photogallery/829228066.jpg' width='200' height='200'><img id='8' src='Photogallery/535542036.jpg' width='200' height='200'><img id='9' src='Photogallery/744078533.jpg' width='200' height='200'><img id='10' src='Photogallery/191851557.jpg' width='200' height='200'><img id='11' src='Photogallery/1242522225.jpg' width='200' height='200'><img id='12' src='Photogallery/1556929449.jpg' width='200' height='200'><img id='13' src='Photogallery/1163651070.jpg' width='200' height='200'><img id='14' src='Photogallery/1177970111.jpg' width='200' height='200'><img id='15' src='Photogallery/1427033039.jpg' width='200' height='200'><img id='16' src='Photogallery/1117812293.jpg' width='200' height='200'><img id='17' src='Photogallery/1345825944.jpg' width='200' height='200'><img id='18' src='Photogallery/1373046113.jpg' width='200' height='200'><img id='19' src='Photogallery/1983887157.jpg' width='200' height='200'></div></a><h3><a href='web30b9.html?pageurl=photos&amp;title=Bal%20Mela'>Bal Mela</a></h3><h4>20 photos</h4><h2> </h2></div><div class='folder_holder' id=9><a href='weba1d7.html?pageurl=photos&amp;title=Byjus'><div class='folder_holder_img' id='folder_9'><img id='1' src='Photogallery/171305276.jpg' width='200' height='200'><img id='2' src='Photogallery/1931865760.jpg' width='200' height='200'><img id='3' src='Photogallery/1751689536.jpg' width='200' height='200'><img id='4' src='Photogallery/1327544227.jpg' width='200' height='200'><img id='5' src='Photogallery/1755830437.jpg' width='200' height='200'><img id='6' src='Photogallery/1549498026.jpg' width='200' height='200'><img id='7' src='Photogallery/1979322413.jpg' width='200' height='200'><img id='8' src='Photogallery/1052771538.jpg' width='200' height='200'><img id='9' src='Photogallery/1390527026.jpg' width='200' height='200'><img id='10' src='Photogallery/946389594.jpg' width='200' height='200'><img id='11' src='Photogallery/1645282883.jpg' width='200' height='200'><img id='12' src='Photogallery/942356852.jpg' width='200' height='200'><img id='13' src='Photogallery/1968743582.jpg' width='200' height='200'><img id='14' src='Photogallery/1330559375.jpg' width='200' height='200'><img id='15' src='Photogallery/2109499632.jpg' width='200' height='200'><img id='16' src='Photogallery/503086904.jpg' width='200' height='200'><img id='17' src='Photogallery/35458517.jpg' width='200' height='200'><img id='18' src='Photogallery/1535885870.jpg' width='200' height='200'><img id='19' src='Photogallery/2141519313.jpg' width='200' height='200'></div></a><h3><a href='weba1d7.html?pageurl=photos&amp;title=Byjus'>Byjus</a></h3><h4>20 photos</h4><h2> </h2></div><div class='folder_holder' id=10><a href='web32eb.html?pageurl=photos&amp;title=Celebration%20Week%20Read'><div class='folder_holder_img' id='folder_10'><img id='1' src='Photogallery/99292442.jpg' width='200' height='200'><img id='2' src='Photogallery/315267869.jpg' width='200' height='200'><img id='3' src='Photogallery/73905144.jpg' width='200' height='200'><img id='4' src='Photogallery/1138914272.jpg' width='200' height='200'><img id='5' src='Photogallery/1005670586.jpg' width='200' height='200'></div></a><h3><a href='web32eb.html?pageurl=photos&amp;title=Celebration%20Week%20Read'>Celebration Week Read</a></h3><h4>6 photos</h4><h2> </h2></div><div class='folder_holder' id=11><a href='web1acc.html?pageurl=photos&amp;title=Certificate%20Distribution'><div class='folder_holder_img' id='folder_11'><img id='1' src='Photogallery/852034956.jpg' width='200' height='200'><img id='2' src='Photogallery/139487623.jpg' width='200' height='200'><img id='3' src='Photogallery/1973544419.jpg' width='200' height='200'><img id='4' src='Photogallery/933991583.jpg' width='200' height='200'><img id='5' src='Photogallery/1493083509.jpg' width='200' height='200'><img id='6' src='Photogallery/39632653.jpg' width='200' height='200'><img id='7' src='Photogallery/797230273.jpg' width='200' height='200'><img id='8' src='Photogallery/976805535.jpg' width='200' height='200'><img id='9' src='Photogallery/1620915850.jpg' width='200' height='200'><img id='10' src='Photogallery/916924212.jpg' width='200' height='200'><img id='11' src='Photogallery/768469879.jpg' width='200' height='200'><img id='12' src='Photogallery/1632801911.jpg' width='200' height='200'><img id='13' src='Photogallery/1444693749.jpg' width='200' height='200'><img id='14' src='Photogallery/1534445407.jpg' width='200' height='200'><img id='15' src='Photogallery/81519944.jpg' width='200' height='200'><img id='16' src='Photogallery/1656821470.jpg' width='200' height='200'><img id='17' src='Photogallery/247206964.jpg' width='200' height='200'><img id='18' src='Photogallery/2041278638.jpg' width='200' height='200'><img id='19' src='Photogallery/586861382.jpg' width='200' height='200'></div></a><h3><a href='web1acc.html?pageurl=photos&amp;title=Certificate%20Distribution'>Certificate Distribution</a></h3><h4>20 photos</h4><h2> </h2></div><div class='folder_holder' id=12><a href='webd95f.html?pageurl=photos&amp;title=Certificate%20Distribution%20Winner%20April-July'><div class='folder_holder_img' id='folder_12'><img id='1' src='Photogallery/1496088478.jpg' width='200' height='200'><img id='2' src='Photogallery/2133717085.jpg' width='200' height='200'><img id='3' src='Photogallery/1152250268.jpg' width='200' height='200'><img id='4' src='Photogallery/1260992792.jpg' width='200' height='200'><img id='5' src='Photogallery/1683823701.jpg' width='200' height='200'><img id='6' src='Photogallery/410498167.jpg' width='200' height='200'><img id='7' src='Photogallery/1780402856.jpg' width='200' height='200'><img id='8' src='Photogallery/362388942.jpg' width='200' height='200'><img id='9' src='Photogallery/642083560.jpg' width='200' height='200'><img id='10' src='Photogallery/558255184.jpg' width='200' height='200'><img id='11' src='Photogallery/727204863.jpg' width='200' height='200'><img id='12' src='Photogallery/516217941.jpg' width='200' height='200'><img id='13' src='Photogallery/1707854408.jpg' width='200' height='200'><img id='14' src='Photogallery/973877402.jpg' width='200' height='200'><img id='15' src='Photogallery/40434746.jpg' width='200' height='200'><img id='16' src='Photogallery/107261600.jpg' width='200' height='200'><img id='17' src='Photogallery/24463855.jpg' width='200' height='200'><img id='18' src='Photogallery/511207742.jpg' width='200' height='200'><img id='19' src='Photogallery/893018912.jpg' width='200' height='200'></div></a><h3><a href='webd95f.html?pageurl=photos&amp;title=Certificate%20Distribution%20Winner%20April-July'>Certificate Distribution Winner April-July</a></h3><h4>20 photos</h4><h2> </h2></div><div class='folder_holder' id=13><a href='web3b56.html?pageurl=photos&amp;title=Childrens%20day'><div class='folder_holder_img' id='folder_13'><img id='1' src='Photogallery/565885548.jpg' width='200' height='200'><img id='2' src='Photogallery/1357526919.jpg' width='200' height='200'><img id='3' src='Photogallery/130141118.jpg' width='200' height='200'><img id='4' src='Photogallery/487460470.jpg' width='200' height='200'><img id='5' src='Photogallery/298711580.jpg' width='200' height='200'><img id='6' src='Photogallery/2036949910.jpg' width='200' height='200'><img id='7' src='Photogallery/1285088387.jpg' width='200' height='200'><img id='8' src='Photogallery/2048125968.jpg' width='200' height='200'><img id='9' src='Photogallery/608207340.jpg' width='200' height='200'><img id='10' src='Photogallery/826277947.jpg' width='200' height='200'><img id='11' src='Photogallery/1386106977.jpg' width='200' height='200'><img id='12' src='Photogallery/1203077959.jpg' width='200' height='200'><img id='13' src='Photogallery/101965140.jpg' width='200' height='200'><img id='14' src='Photogallery/939777505.jpg' width='200' height='200'><img id='15' src='Photogallery/1050283272.jpg' width='200' height='200'><img id='16' src='Photogallery/729088489.jpg' width='200' height='200'><img id='17' src='Photogallery/1108847078.jpg' width='200' height='200'><img id='18' src='Photogallery/412772904.jpg' width='200' height='200'></div></a><h3><a href='web3b56.html?pageurl=photos&amp;title=Childrens%20day'>Childrens day</a></h3><h4>19 photos</h4><h2> </h2></div><div class='folder_holder' id=14><a href='web2b36.html?pageurl=photos&amp;title=COVID%20Vaccination%20Camp'><div class='folder_holder_img' id='folder_14'><img id='1' src='Photogallery/1536979665.jpg' width='200' height='200'><img id='2' src='Photogallery/45083957.jpg' width='200' height='200'><img id='3' src='Photogallery/782205195.jpg' width='200' height='200'><img id='4' src='Photogallery/1563151746.jpg' width='200' height='200'><img id='5' src='Photogallery/874606509.jpg' width='200' height='200'><img id='6' src='Photogallery/1440811947.jpg' width='200' height='200'><img id='7' src='Photogallery/1406355356.jpg' width='200' height='200'><img id='8' src='Photogallery/1962720760.jpg' width='200' height='200'><img id='9' src='Photogallery/1504375289.jpg' width='200' height='200'><img id='10' src='Photogallery/471647655.jpg' width='200' height='200'><img id='11' src='Photogallery/2080681458.jpg' width='200' height='200'><img id='12' src='Photogallery/167323558.jpg' width='200' height='200'><img id='13' src='Photogallery/265979923.jpg' width='200' height='200'><img id='14' src='Photogallery/1436033023.jpg' width='200' height='200'><img id='15' src='Photogallery/1016746134.jpg' width='200' height='200'><img id='16' src='Photogallery/1781825722.jpg' width='200' height='200'></div></a><h3><a href='web2b36.html?pageurl=photos&amp;title=COVID%20Vaccination%20Camp'>COVID Vaccination Camp</a></h3><h4>17 photos</h4><h2> </h2></div><div class='folder_holder' id=15><a href='web6700.html?pageurl=photos&amp;title=Cyber%20Awareness'><div class='folder_holder_img' id='folder_15'><img id='1' src='Photogallery/589803972.jpg' width='200' height='200'><img id='2' src='Photogallery/129414741.jpg' width='200' height='200'><img id='3' src='Photogallery/1910101975.jpg' width='200' height='200'><img id='4' src='Photogallery/960488294.jpg' width='200' height='200'><img id='5' src='Photogallery/1978596052.jpg' width='200' height='200'><img id='6' src='Photogallery/1552121268.jpg' width='200' height='200'><img id='7' src='Photogallery/286083884.jpg' width='200' height='200'><img id='8' src='Photogallery/120788662.jpg' width='200' height='200'><img id='9' src='Photogallery/1005075270.jpg' width='200' height='200'><img id='10' src='Photogallery/1534600579.jpg' width='200' height='200'></div></a><h3><a href='web6700.html?pageurl=photos&amp;title=Cyber%20Awareness'>Cyber Awareness</a></h3><h4>11 photos</h4><h2> </h2></div><div class='folder_holder' id=16><a href='webaa5b.html?pageurl=photos&amp;title=Death%20Anniversary%20of%20founder'><div class='folder_holder_img' id='folder_16'><img id='1' src='Photogallery/936886118.jpg' width='200' height='200'><img id='2' src='Photogallery/87210154.jpg' width='200' height='200'><img id='3' src='Photogallery/887246860.jpg' width='200' height='200'><img id='4' src='Photogallery/895724425.jpg' width='200' height='200'><img id='5' src='Photogallery/106515974.jpg' width='200' height='200'><img id='6' src='Photogallery/1834272716.jpg' width='200' height='200'><img id='7' src='Photogallery/1642273234.jpg' width='200' height='200'></div></a><h3><a href='webaa5b.html?pageurl=photos&amp;title=Death%20Anniversary%20of%20founder'>Death Anniversary of founder </a></h3><h4>8 photos</h4><h2> </h2></div><div class='folder_holder' id=17><a href='web6beb.html?pageurl=photos&amp;title=Diwali%20Festival'><div class='folder_holder_img' id='folder_17'><img id='1' src='Photogallery/791463339.jpg' width='200' height='200'><img id='2' src='Photogallery/508218154.jpg' width='200' height='200'><img id='3' src='Photogallery/1390944642.jpg' width='200' height='200'><img id='4' src='Photogallery/1058671397.jpg' width='200' height='200'><img id='5' src='Photogallery/559148190.jpg' width='200' height='200'><img id='6' src='Photogallery/1436961978.jpg' width='200' height='200'><img id='7' src='Photogallery/1578510505.jpg' width='200' height='200'><img id='8' src='Photogallery/1923040812.jpg' width='200' height='200'><img id='9' src='Photogallery/1647383008.jpg' width='200' height='200'><img id='10' src='Photogallery/414860686.jpg' width='200' height='200'><img id='11' src='Photogallery/321186473.jpg' width='200' height='200'><img id='12' src='Photogallery/2079759347.jpg' width='200' height='200'><img id='13' src='Photogallery/1276201697.jpg' width='200' height='200'><img id='14' src='Photogallery/937246541.jpg' width='200' height='200'><img id='15' src='Photogallery/254245885.jpg' width='200' height='200'><img id='16' src='Photogallery/27809258.jpg' width='200' height='200'><img id='17' src='Photogallery/1168392682.jpg' width='200' height='200'><img id='18' src='Photogallery/258714085.jpg' width='200' height='200'><img id='19' src='Photogallery/2134689706.jpg' width='200' height='200'></div></a><h3><a href='web6beb.html?pageurl=photos&amp;title=Diwali%20Festival'>Diwali Festival</a></h3><h4>20 photos</h4><h2> </h2></div><div class='folder_holder' id=18><a href='web054c.html?pageurl=photos&amp;title=Donation'><div class='folder_holder_img' id='folder_18'><img id='1' src='Photogallery/1382431596.jpg' width='200' height='200'><img id='2' src='Photogallery/1605307527.jpg' width='200' height='200'><img id='3' src='Photogallery/1638277210.jpg' width='200' height='200'><img id='4' src='Photogallery/713000944.jpg' width='200' height='200'><img id='5' src='Photogallery/839231277.jpg' width='200' height='200'><img id='6' src='Photogallery/1501269426.jpg' width='200' height='200'><img id='7' src='Photogallery/797019960.jpg' width='200' height='200'><img id='8' src='Photogallery/465679326.jpg' width='200' height='200'><img id='9' src='Photogallery/387076817.jpg' width='200' height='200'></div></a><h3><a href='web054c.html?pageurl=photos&amp;title=Donation'>Donation</a></h3><h4>10 photos</h4><h2> </h2></div><div class='folder_holder' id=19><a href='webbf58.html?pageurl=photos&amp;title=Doodle%20for%20Google'><div class='folder_holder_img' id='folder_19'><img id='1' src='Photogallery/809114177.jpg' width='200' height='200'><img id='2' src='Photogallery/732316137.jpg' width='200' height='200'><img id='3' src='Photogallery/49714665.jpg' width='200' height='200'><img id='4' src='Photogallery/662651158.jpg' width='200' height='200'><img id='5' src='Photogallery/1655662526.jpg' width='200' height='200'><img id='6' src='Photogallery/400524687.jpg' width='200' height='200'><img id='7' src='Photogallery/975192879.jpg' width='200' height='200'><img id='8' src='Photogallery/195923896.jpg' width='200' height='200'><img id='9' src='Photogallery/504859209.jpg' width='200' height='200'><img id='10' src='Photogallery/1029429064.jpg' width='200' height='200'><img id='11' src='Photogallery/1474967256.jpg' width='200' height='200'><img id='12' src='Photogallery/344821894.jpg' width='200' height='200'><img id='13' src='Photogallery/567584519.jpg' width='200' height='200'><img id='14' src='Photogallery/2067346218.jpg' width='200' height='200'><img id='15' src='Photogallery/1930899582.jpg' width='200' height='200'><img id='16' src='Photogallery/622518456.jpg' width='200' height='200'><img id='17' src='Photogallery/493740.jpg' width='200' height='200'></div></a><h3><a href='webbf58.html?pageurl=photos&amp;title=Doodle%20for%20Google'>Doodle for Google</a></h3><h4>18 photos</h4><h2> </h2></div><div class='folder_holder' id=20><a href='webde1e.html?pageurl=photos&amp;title=Earth%20Day'><div class='folder_holder_img' id='folder_20'><img id='1' src='Photogallery/1639675450.jpg' width='200' height='200'><img id='2' src='Photogallery/147153256.jpg' width='200' height='200'><img id='3' src='Photogallery/1693274033.jpg' width='200' height='200'><img id='4' src='Photogallery/173501628.jpg' width='200' height='200'><img id='5' src='Photogallery/1381411808.jpg' width='200' height='200'><img id='6' src='Photogallery/542249705.jpg' width='200' height='200'><img id='7' src='Photogallery/164155683.jpg' width='200' height='200'><img id='8' src='Photogallery/2044396651.jpg' width='200' height='200'><img id='9' src='Photogallery/724138162.jpg' width='200' height='200'><img id='10' src='Photogallery/880274894.jpg' width='200' height='200'><img id='11' src='Photogallery/1795857463.jpg' width='200' height='200'><img id='12' src='Photogallery/1090399816.jpg' width='200' height='200'><img id='13' src='Photogallery/985858157.jpg' width='200' height='200'><img id='14' src='Photogallery/1860025899.jpg' width='200' height='200'><img id='15' src='Photogallery/771044189.jpg' width='200' height='200'><img id='16' src='Photogallery/1571085289.jpg' width='200' height='200'><img id='17' src='Photogallery/1059685127.jpg' width='200' height='200'><img id='18' src='Photogallery/246275807.jpg' width='200' height='200'><img id='19' src='Photogallery/1146440460.jpg' width='200' height='200'></div></a><h3><a href='webde1e.html?pageurl=photos&amp;title=Earth%20Day'>Earth Day</a></h3><h4>20 photos</h4><h2> </h2></div><div class='folder_holder' id=21><a href='web4339.html?pageurl=photos&amp;title=ESPERANZA%20SHUATS'><div class='folder_holder_img' id='folder_21'><img id='1' src='Photogallery/1893029013.jpg' width='200' height='200'><img id='2' src='Photogallery/271266052.jpg' width='200' height='200'></div></a><h3><a href='web4339.html?pageurl=photos&amp;title=ESPERANZA%20SHUATS'>ESPERANZA SHUATS</a></h3><h4>3 photos</h4><h2> </h2></div><div class='folder_holder' id=22><a href='webf737.php?pageurl=photos&amp;title=Exam%20Warriors'><div class='folder_holder_img' id='folder_22'><img id='1' src='Photogallery/1550122003.jpg' width='200' height='200'><img id='2' src='Photogallery/48448582.jpg' width='200' height='200'><img id='3' src='Photogallery/1162971124.jpg' width='200' height='200'><img id='4' src='Photogallery/1472912037.jpg' width='200' height='200'><img id='5' src='Photogallery/887965806.jpg' width='200' height='200'><img id='6' src='Photogallery/1714888305.jpg' width='200' height='200'><img id='7' src='Photogallery/1726854522.jpg' width='200' height='200'><img id='8' src='Photogallery/1509200625.jpg' width='200' height='200'><img id='9' src='Photogallery/1517486662.jpg' width='200' height='200'></div></a><h3><a href='webf737.php?pageurl=photos&amp;title=Exam%20Warriors'>Exam Warriors</a></h3><h4>10 photos</h4><h2> </h2></div><div class='folder_holder' id=23><a href='web2f09.php?pageurl=photos&amp;title=Freshers%20Party'><div class='folder_holder_img' id='folder_23'><img id='1' src='Photogallery/231621301.jpg' width='200' height='200'><img id='2' src='Photogallery/1229452401.jpg' width='200' height='200'><img id='3' src='Photogallery/1825687027.jpg' width='200' height='200'><img id='4' src='Photogallery/1108163837.jpg' width='200' height='200'><img id='5' src='Photogallery/1443555015.jpg' width='200' height='200'><img id='6' src='Photogallery/2065239814.jpg' width='200' height='200'><img id='7' src='Photogallery/1064804235.jpg' width='200' height='200'><img id='8' src='Photogallery/1706379011.jpg' width='200' height='200'><img id='9' src='Photogallery/1999728730.jpg' width='200' height='200'><img id='10' src='Photogallery/60169141.jpg' width='200' height='200'><img id='11' src='Photogallery/347767563.jpg' width='200' height='200'><img id='12' src='Photogallery/612397207.jpg' width='200' height='200'><img id='13' src='Photogallery/971010785.jpg' width='200' height='200'><img id='14' src='Photogallery/476575193.jpg' width='200' height='200'><img id='15' src='Photogallery/1481040473.jpg' width='200' height='200'><img id='16' src='Photogallery/826363389.jpg' width='200' height='200'><img id='17' src='Photogallery/1071160240.jpg' width='200' height='200'><img id='18' src='Photogallery/209121199.jpg' width='200' height='200'><img id='19' src='Photogallery/297203039.jpg' width='200' height='200'></div></a><h3><a href='web2f09.php?pageurl=photos&amp;title=Freshers%20Party'>Freshers Party</a></h3><h4>20 photos</h4><h2> </h2></div><div class='folder_holder' id=24><a href='web1a2d.php?pageurl=photos&amp;title=First%20aid%20assistants'><div class='folder_holder_img' id='folder_24'><img id='1' src='Photogallery/2071161130.jpg' width='200' height='200'><img id='2' src='Photogallery/1095551019.jpg' width='200' height='200'><img id='3' src='Photogallery/107233827.jpg' width='200' height='200'><img id='4' src='Photogallery/366446670.jpg' width='200' height='200'><img id='5' src='Photogallery/546166578.jpg' width='200' height='200'><img id='6' src='Photogallery/1444154663.jpg' width='200' height='200'></div></a><h3><a href='web1a2d.php?pageurl=photos&amp;title=First%20aid%20assistants'>First aid assistants</a></h3><h4>7 photos</h4><h2> </h2></div><div class='folder_holder' id=25><a href='webc60b.php?pageurl=photos&amp;title=Gandhi%20Jayanti'><div class='folder_holder_img' id='folder_25'><img id='1' src='Photogallery/391597320.jpg' width='200' height='200'><img id='2' src='Photogallery/1289681277.jpg' width='200' height='200'><img id='3' src='Photogallery/1601284193.jpg' width='200' height='200'><img id='4' src='Photogallery/866208729.jpg' width='200' height='200'><img id='5' src='Photogallery/76298555.jpg' width='200' height='200'><img id='6' src='Photogallery/1631590470.jpg' width='200' height='200'><img id='7' src='Photogallery/239921724.jpg' width='200' height='200'><img id='8' src='Photogallery/869693215.jpg' width='200' height='200'><img id='9' src='Photogallery/660213045.jpg' width='200' height='200'><img id='10' src='Photogallery/2044276901.jpg' width='200' height='200'><img id='11' src='Photogallery/1283743902.jpg' width='200' height='200'><img id='12' src='Photogallery/484471159.jpg' width='200' height='200'><img id='13' src='Photogallery/502580746.jpg' width='200' height='200'><img id='14' src='Photogallery/149532951.jpg' width='200' height='200'><img id='15' src='Photogallery/1104143973.jpg' width='200' height='200'><img id='16' src='Photogallery/22709230.jpg' width='200' height='200'><img id='17' src='Photogallery/1776559952.jpg' width='200' height='200'><img id='18' src='Photogallery/1027615447.jpg' width='200' height='200'><img id='19' src='Photogallery/1236853189.jpg' width='200' height='200'></div></a><h3><a href='webc60b.php?pageurl=photos&amp;title=Gandhi%20Jayanti'>Gandhi Jayanti</a></h3><h4>20 photos</h4><h2> </h2></div><div class='folder_holder' id=26><a href='web8571.php?pageurl=photos&amp;title=Good%20Touch%20and%20Bad%20Touch'><div class='folder_holder_img' id='folder_26'><img id='1' src='Photogallery/1715160696.jpg' width='200' height='200'><img id='2' src='Photogallery/198148761.jpg' width='200' height='200'><img id='3' src='Photogallery/417048156.jpg' width='200' height='200'><img id='4' src='Photogallery/1107980959.jpg' width='200' height='200'><img id='5' src='Photogallery/1330195598.jpg' width='200' height='200'><img id='6' src='Photogallery/752184184.jpg' width='200' height='200'><img id='7' src='Photogallery/255456282.jpg' width='200' height='200'><img id='8' src='Photogallery/2039720127.jpg' width='200' height='200'><img id='9' src='Photogallery/500443600.jpg' width='200' height='200'><img id='10' src='Photogallery/785248850.jpg' width='200' height='200'><img id='11' src='Photogallery/975645666.jpg' width='200' height='200'><img id='12' src='Photogallery/1155602902.jpg' width='200' height='200'><img id='13' src='Photogallery/931534135.jpg' width='200' height='200'></div></a><h3><a href='web8571.php?pageurl=photos&amp;title=Good%20Touch%20and%20Bad%20Touch'>Good Touch and Bad Touch</a></h3><h4>14 photos</h4><h2> </h2></div><div class='folder_holder' id=27><a href='web9ee6.php?pageurl=photos&amp;title=Hindi%20Divas'><div class='folder_holder_img' id='folder_27'><img id='1' src='Photogallery/579489916.jpg' width='200' height='200'><img id='2' src='Photogallery/1366821737.jpg' width='200' height='200'><img id='3' src='Photogallery/1528718899.jpg' width='200' height='200'><img id='4' src='Photogallery/181702717.jpg' width='200' height='200'><img id='5' src='Photogallery/513595587.jpg' width='200' height='200'><img id='6' src='Photogallery/1481810389.jpg' width='200' height='200'><img id='7' src='Photogallery/15448048.jpg' width='200' height='200'><img id='8' src='Photogallery/836467777.jpg' width='200' height='200'></div></a><h3><a href='web9ee6.php?pageurl=photos&amp;title=Hindi%20Divas'>Hindi Divas</a></h3><h4>9 photos</h4><h2> </h2></div><div class='folder_holder' id=28><a href='weba5e0.php?pageurl=photos&amp;title=Indoor%20games'><div class='folder_holder_img' id='folder_28'><img id='1' src='Photogallery/755382742.jpg' width='200' height='200'><img id='2' src='Photogallery/533269468.jpg' width='200' height='200'><img id='3' src='Photogallery/973739285.jpg' width='200' height='200'><img id='4' src='Photogallery/881385648.jpg' width='200' height='200'><img id='5' src='Photogallery/985920285.jpg' width='200' height='200'><img id='6' src='Photogallery/132583938.jpg' width='200' height='200'><img id='7' src='Photogallery/201036205.jpg' width='200' height='200'></div></a><h3><a href='weba5e0.php?pageurl=photos&amp;title=Indoor%20games'>Indoor games</a></h3><h4>8 photos</h4><h2> </h2></div><div class='folder_holder' id=29><a href='webc478.php?pageurl=photos&amp;title=Krishna%20Janmashtami'><div class='folder_holder_img' id='folder_29'><img id='1' src='Photogallery/1063307091.jpg' width='200' height='200'><img id='2' src='Photogallery/58946110.jpg' width='200' height='200'><img id='3' src='Photogallery/607287138.jpg' width='200' height='200'><img id='4' src='Photogallery/1563277151.jpg' width='200' height='200'><img id='5' src='Photogallery/305451364.jpg' width='200' height='200'><img id='6' src='Photogallery/1797713361.jpg' width='200' height='200'><img id='7' src='Photogallery/66415942.jpg' width='200' height='200'><img id='8' src='Photogallery/145829573.jpg' width='200' height='200'><img id='9' src='Photogallery/1294291391.jpg' width='200' height='200'><img id='10' src='Photogallery/19055837.jpg' width='200' height='200'><img id='11' src='Photogallery/1501313033.jpg' width='200' height='200'><img id='12' src='Photogallery/1795613547.jpg' width='200' height='200'><img id='13' src='Photogallery/664077960.jpg' width='200' height='200'><img id='14' src='Photogallery/1725571014.jpg' width='200' height='200'><img id='15' src='Photogallery/1025519855.jpg' width='200' height='200'><img id='16' src='Photogallery/1389063966.jpg' width='200' height='200'><img id='17' src='Photogallery/1561482455.jpg' width='200' height='200'><img id='18' src='Photogallery/1347986787.jpg' width='200' height='200'><img id='19' src='Photogallery/2022787204.jpg' width='200' height='200'></div></a><h3><a href='webc478.php?pageurl=photos&amp;title=Krishna%20Janmashtami'>Krishna Janmashtami</a></h3><h4>20 photos</h4><h2> </h2></div><div class='folder_holder' id=30><a href='webefbf.php?pageurl=photos&amp;title=Labour%20Day'><div class='folder_holder_img' id='folder_30'><img id='1' src='Photogallery/1357258293.jpg' width='200' height='200'><img id='2' src='Photogallery/1377333242.jpg' width='200' height='200'><img id='3' src='Photogallery/1508306822.jpg' width='200' height='200'><img id='4' src='Photogallery/351751017.jpg' width='200' height='200'><img id='5' src='Photogallery/1443159592.jpg' width='200' height='200'><img id='6' src='Photogallery/1547158440.jpg' width='200' height='200'><img id='7' src='Photogallery/2077783236.jpg' width='200' height='200'><img id='8' src='Photogallery/1522700397.jpg' width='200' height='200'><img id='9' src='Photogallery/704752012.jpg' width='200' height='200'><img id='10' src='Photogallery/1847010703.jpg' width='200' height='200'><img id='11' src='Photogallery/432496872.jpg' width='200' height='200'><img id='12' src='Photogallery/1592570968.jpg' width='200' height='200'></div></a><h3><a href='webefbf.php?pageurl=photos&amp;title=Labour%20Day'>Labour Day</a></h3><h4>13 photos</h4><h2> </h2></div><div class='folder_holder' id=31><a href='webf0ab.php?pageurl=photos&amp;title=Parents%20orientation'><div class='folder_holder_img' id='folder_31'><img id='1' src='Photogallery/293936711.jpg' width='200' height='200'><img id='2' src='Photogallery/293248696.jpg' width='200' height='200'><img id='3' src='Photogallery/574100913.jpg' width='200' height='200'><img id='4' src='Photogallery/786977995.jpg' width='200' height='200'><img id='5' src='Photogallery/1765472518.jpg' width='200' height='200'><img id='6' src='Photogallery/74377757.jpg' width='200' height='200'><img id='7' src='Photogallery/1085239806.jpg' width='200' height='200'><img id='8' src='Photogallery/855658554.jpg' width='200' height='200'><img id='9' src='Photogallery/1771512285.jpg' width='200' height='200'><img id='10' src='Photogallery/625517374.jpg' width='200' height='200'><img id='11' src='Photogallery/174190225.jpg' width='200' height='200'><img id='12' src='Photogallery/2075824428.jpg' width='200' height='200'><img id='13' src='Photogallery/384944877.jpg' width='200' height='200'></div></a><h3><a href='webf0ab.php?pageurl=photos&amp;title=Parents%20orientation'>Parents orientation</a></h3><h4>14 photos</h4><h2> </h2></div><div class='folder_holder' id=32><a href='web3d4c.php?pageurl=photos&amp;title=Raksha%20Parv%20Dainik%20Jagran'><div class='folder_holder_img' id='folder_32'><img id='1' src='Photogallery/709579714.jpg' width='200' height='200'><img id='2' src='Photogallery/1460925423.jpg' width='200' height='200'><img id='3' src='Photogallery/1095915183.jpg' width='200' height='200'><img id='4' src='Photogallery/1629309777.jpg' width='200' height='200'><img id='5' src='Photogallery/112196776.jpg' width='200' height='200'><img id='6' src='Photogallery/398809844.jpg' width='200' height='200'><img id='7' src='Photogallery/653835135.jpg' width='200' height='200'></div></a><h3><a href='web3d4c.php?pageurl=photos&amp;title=Raksha%20Parv%20Dainik%20Jagran'>Raksha Parv Dainik Jagran</a></h3><h4>8 photos</h4><h2> </h2></div><div class='folder_holder' id=33><a href='webac45.php?pageurl=photos&amp;title=Reading%20Challenge'><div class='folder_holder_img' id='folder_33'><img id='1' src='Photogallery/1226717223.jpg' width='200' height='200'></div></a><h3><a href='webac45.php?pageurl=photos&amp;title=Reading%20Challenge'>Reading Challenge</a></h3><h4>2 photos</h4><h2> </h2></div><div class='folder_holder' id=34><a href='web6970.php?pageurl=photos&amp;title=Run%20for%20unity'><div class='folder_holder_img' id='folder_34'><img id='1' src='Photogallery/1580824996.jpg' width='200' height='200'><img id='2' src='Photogallery/299417238.jpg' width='200' height='200'><img id='3' src='Photogallery/179634405.jpg' width='200' height='200'><img id='4' src='Photogallery/2101810060.jpg' width='200' height='200'><img id='5' src='Photogallery/1863987887.jpg' width='200' height='200'><img id='6' src='Photogallery/728311255.jpg' width='200' height='200'><img id='7' src='Photogallery/2011969118.jpg' width='200' height='200'><img id='8' src='Photogallery/1740331506.jpg' width='200' height='200'><img id='9' src='Photogallery/387636837.jpg' width='200' height='200'><img id='10' src='Photogallery/2059436468.jpg' width='200' height='200'><img id='11' src='Photogallery/1687181528.jpg' width='200' height='200'><img id='12' src='Photogallery/1531413262.jpg' width='200' height='200'><img id='13' src='Photogallery/822627667.jpg' width='200' height='200'><img id='14' src='Photogallery/1209137137.jpg' width='200' height='200'><img id='15' src='Photogallery/1074630410.jpg' width='200' height='200'><img id='16' src='Photogallery/1721934773.jpg' width='200' height='200'><img id='17' src='Photogallery/55539833.jpg' width='200' height='200'><img id='18' src='Photogallery/264018327.jpg' width='200' height='200'><img id='19' src='Photogallery/788201137.jpg' width='200' height='200'><img id='20' src='Photogallery/993726843.jpg' width='200' height='200'><img id='21' src='Photogallery/470194825.jpg' width='200' height='200'><img id='22' src='Photogallery/3749145.jpg' width='200' height='200'><img id='23' src='Photogallery/1451271260.jpg' width='200' height='200'></div></a><h3><a href='web6970.php?pageurl=photos&amp;title=Run%20for%20unity'>Run for unity</a></h3><h4>24 photos</h4><h2> </h2></div><div class='folder_holder' id=36><a href='web3401.php?pageurl=photos&amp;title=Sundarkand%20Path'><div class='folder_holder_img' id='folder_36'><img id='1' src='Photogallery/21999310.jpg' width='200' height='200'><img id='2' src='Photogallery/1329261891.jpg' width='200' height='200'><img id='3' src='Photogallery/46014849.jpg' width='200' height='200'><img id='4' src='Photogallery/575905957.jpg' width='200' height='200'><img id='5' src='Photogallery/1269202993.jpg' width='200' height='200'><img id='6' src='Photogallery/1622791659.jpg' width='200' height='200'><img id='7' src='Photogallery/1980632122.jpg' width='200' height='200'><img id='8' src='Photogallery/618359970.jpg' width='200' height='200'><img id='9' src='Photogallery/680603241.jpg' width='200' height='200'><img id='10' src='Photogallery/1374420194.jpg' width='200' height='200'><img id='11' src='Photogallery/477837148.jpg' width='200' height='200'><img id='12' src='Photogallery/130144307.jpg' width='200' height='200'><img id='13' src='Photogallery/1411199259.jpg' width='200' height='200'><img id='14' src='Photogallery/546993716.jpg' width='200' height='200'><img id='15' src='Photogallery/1473648918.jpg' width='200' height='200'></div></a><h3><a href='web3401.php?pageurl=photos&amp;title=Sundarkand%20Path'>Sundarkand Path</a></h3><h4>16 photos</h4><h2> </h2></div><div class='folder_holder' id=37><a href='web34b9.php?pageurl=photos&amp;title=Teachers%20Day'><div class='folder_holder_img' id='folder_37'><img id='1' src='Photogallery/1264906082.jpg' width='200' height='200'><img id='2' src='Photogallery/312057274.jpg' width='200' height='200'><img id='3' src='Photogallery/271120707.jpg' width='200' height='200'><img id='4' src='Photogallery/678438804.jpg' width='200' height='200'><img id='5' src='Photogallery/1219728417.jpg' width='200' height='200'><img id='6' src='Photogallery/706240617.jpg' width='200' height='200'><img id='7' src='Photogallery/1657494591.jpg' width='200' height='200'><img id='8' src='Photogallery/813586742.jpg' width='200' height='200'><img id='9' src='Photogallery/2027459319.jpg' width='200' height='200'><img id='10' src='Photogallery/905747964.jpg' width='200' height='200'><img id='11' src='Photogallery/1606066429.jpg' width='200' height='200'><img id='12' src='Photogallery/1489883345.jpg' width='200' height='200'><img id='13' src='Photogallery/212735698.jpg' width='200' height='200'><img id='14' src='Photogallery/1216627372.jpg' width='200' height='200'><img id='15' src='Photogallery/1080660213.jpg' width='200' height='200'></div></a><h3><a href='web34b9.php?pageurl=photos&amp;title=Teachers%20Day'>Teachers Day</a></h3><h4>16 photos</h4><h2> </h2></div><div class='folder_holder' id=38><a href='web1ac9.php?pageurl=photos&amp;title=Water%20Melon%20Party'><div class='folder_holder_img' id='folder_38'><img id='1' src='Photogallery/1391180008.jpg' width='200' height='200'><img id='2' src='Photogallery/1141577681.jpg' width='200' height='200'><img id='3' src='Photogallery/1650233198.jpg' width='200' height='200'><img id='4' src='Photogallery/207792126.jpg' width='200' height='200'><img id='5' src='Photogallery/1885457130.jpg' width='200' height='200'><img id='6' src='Photogallery/694192214.jpg' width='200' height='200'><img id='7' src='Photogallery/1497263223.jpg' width='200' height='200'><img id='8' src='Photogallery/810901882.jpg' width='200' height='200'><img id='9' src='Photogallery/1883400456.jpg' width='200' height='200'><img id='10' src='Photogallery/445851109.jpg' width='200' height='200'><img id='11' src='Photogallery/2048960494.jpg' width='200' height='200'><img id='12' src='Photogallery/2046764627.jpg' width='200' height='200'><img id='13' src='Photogallery/1568938103.jpg' width='200' height='200'><img id='14' src='Photogallery/239293034.jpg' width='200' height='200'><img id='15' src='Photogallery/779426035.jpg' width='200' height='200'><img id='16' src='Photogallery/122114888.jpg' width='200' height='200'><img id='17' src='Photogallery/1676113985.jpg' width='200' height='200'><img id='18' src='Photogallery/1167105200.jpg' width='200' height='200'><img id='19' src='Photogallery/1522320298.jpg' width='200' height='200'></div></a><h3><a href='web1ac9.php?pageurl=photos&amp;title=Water%20Melon%20Party'>Water Melon Party</a></h3><h4>20 photos</h4><h2> </h2></div>        </div>
+	</div>
+<script type="text/javascript" src="../ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#folder_"+id+">img#1").fadeIn(200);
+	});
+sliderint=1;
+sliderNext=2;
+
+function startSlider(id){
+	count=$("#folder_"+id+">img").size();
+	
+	loop = setInterval(function(){
+		
+		if(sliderNext>count){
+			sliderNext=1;
+			sliderint=1;
+		}
+		
+		$("#folder_"+id+">img").fadeOut(100);
+		$("#folder_"+id+">img#"+sliderNext).fadeIn(200);
+		
+		sliderint=sliderNext;
+		sliderNext=sliderNext+1;
+		},2000)
+}
+function stopLoop(){
+	window.clearInterval(loop);
+}
+$('.folder_holder').hover(
+	function(){
+		var id = ($(this).attr('id'));
+		startSlider(id);
+	},function(){
+		stopLoop();
+	}
+);
+</script>
+    </div>
+
+        </div>
+            
+            <div class="wrapper">
+                <div class="bottom_sec">
+                    <div class="bottom_sec_in">
+                        <p>© 2021 Kids Academy, Prayagraj </p>
+                      
+                        <div class="Maintained">
+                            <span>Designed & Maintained by :F1 Multi Services
+                                                             </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                    </div>
+                </div>
+        </div>
+     
+
+
+        <div><a href="#" class="back-to-top"></a></div>
+
+</body>
+
+
+<!-- Mirrored from www.kidsacademyprayagraj.com/web.php?pageurl=photo-gallery by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 20 May 2023 06:07:10 GMT -->
+</html>

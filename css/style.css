@@ -1,0 +1,106 @@
+/* CSS Document */
+/*body{
+	background-color:#999;
+}*/
+#container{
+	width:100%;
+	margin:20px auto;
+	padding:5px;
+}
+/*.header{
+	padding:10px;
+}
+h1{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:26px;
+	font-weight:bold;
+	text-align:center;
+}
+h2{
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight:bold;
+	font-size:16px;
+	padding-bottom:10px;
+	width:200px;
+	float:left;
+}
+h3{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#5983FF;
+	padding:5px;
+	text-decoration:none;
+}
+h3 a{
+	text-decoration:none;
+}
+h3:hover{
+	background:#C8D6FF;
+	cursor:pointer;
+}
+h4{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:10px;
+	color:#666;
+	padding:5px;
+}
+h5{
+	background-color:#4DB8DB;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:16px;
+	padding:10px;
+	width:130px;
+	float:right;
+	text-align:center;
+	border-radius:5px;
+}
+h5 a{
+	text-decoration:none;
+	color:#006B8F;
+}
+h6{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+	color:#999;
+	font-weight:bold;
+	text-align:center;
+}
+/*.content{
+	padding:10px;
+	margin: 10px 0px 0px 0px;
+	overflow:hidden;
+}
+.content_head{
+	overflow:hidden;
+	border-bottom:2px solid #999;
+	padding-bottom:5px;
+}
+.content_head h5:hover{
+	background-color:#33ADD6;
+}
+.content_head h5 a:hover{
+	text-decoration:underline;
+}
+#album_wrapper{
+	margin-left:60px;
+	background:1px solid #CCC;
+}*/
+
+.folder_holder{
+	width:200px;
+	height:280px;
+	float:left;
+	margin:30px;
+	border:1px solid #CCC;	
+}
+.folder_holder_img{
+	width:200px;
+	height:200px;
+	overflow:hidden;
+	cursor:pointer;
+}
+.photo_holder{
+	width:225px;
+	margin:5px;
+	float:left;
+}

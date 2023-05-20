@@ -1,0 +1,309 @@
+﻿@media screen and (max-width:1100px) {
+.submenu li ul{position:static;background:#4863d0}
+ul.submenu2{width:100%}
+}
+@media screen and (min-width:1025px) {
+.menu_1 ul li a:hover{background:#cccf00;transition:.6s}
+.icos ul li:hover .soc_icon1{background:url(../Images/sociol_icon125.png) no-repeat 0 -40px}
+.icos ul li:hover .soc_icon2{background:url(../Images/sociol_icon125.png) no-repeat -40px -40px}
+.icos ul li:hover .soc_icon3{background:url(../Images/sociol_icon125.png) no-repeat -80px -40px}
+.icos ul li:hover .soc_icon4{background:url(../Images/sociol_icon125.png) no-repeat -120px -40px}
+img.manegmntR:hover{background:#3a55c1}
+img.manegmntL:hover{background:#3a55c1}
+img.V_all:hover{background:#3a55c1}
+img.L_all:hover{background:#3a55c1}
+.get_conet ul li:hover .get_icon{padding-top:0}
+.get_conet ul li:hover .get_ico1{background:url(../Images/get_icon.png) no-repeat 46px 20px}
+.get_conet ul li:hover .get_ico2{background:url(../Images/get_icon.png) no-repeat -200px 20px}
+.get_conet ul li:hover .get_ico3{background:url(../Images/get_icon.png) no-repeat -419px 20px}
+.get_conet ul li:hover .get_ico4{background:url(../Images/get_icon.png) no-repeat -641px 20px}
+.get_conet ul li:hover .get_ico5{background:url(../Images/get_icon.png) no-repeat -860px 20px}
+.get_conet ul li:hover .get_ico6{background:url(../Images/get_icon.png) no-repeat -1040px 20px}
+img.r_next_b:hover{background:#3a55c1}
+img.l_next_b:hover{background:#3a55c1}
+img.right_next_b:hover{background:#3a55c1}
+img.left_next_b:hover{background:#3a55c1}
+.bottom_sec_icon ul li:hover .soc_icons1{background:url(../Images/sociol_icon.png) no-repeat 5px -30px}
+.bottom_sec_icon ul li:hover .soc_icons2{background:url(../Images/sociol_icon.png) no-repeat -25px -30px}
+.bottom_sec_icon ul li:hover .soc_icons3{background:url(../Images/sociol_icon.png) no-repeat -58px -30px}
+.bottom_sec_icon ul li:hover .soc_icons4{background:url(../Images/sociol_icon.png) no-repeat -95px -30px}
+ul.sub-menu li:hover ul.sub-menu2{display:block}
+.bottom_sec_icon ul li:hover .soc_icons5{background:url(../Images/sociol_icon.png) no-repeat -129px -30px}
+ul.dropmenu li:hover{background:#ccce00}
+ul.dropmenu li:hover a{color:#fff}
+ul.dropmenu li:hover ul.submenu{display:block;-webkit-transform:scale(1);-moz-transform:scale(1);-o-transform:scale(1);transform:scale(1);opacity:1}
+ul.submenu li:hover ul.submenu2{display:block;-webkit-transform:scale(1);-moz-transform:scale(1);-o-transform:scale(1);transform:scale(1);opacity:1}
+}
+@media screen and (max-width:1024px) {
+    .mangment_run{height:245px!important ;float:none;margin:0 auto;}
+    .mangment_run li{height:300px;width:100%!important;}
+    /*.get_ico1{background:url(/Images/get_icon.png) no-repeat 90px 10px}
+.get_ico2{background:url(/Images/get_icon.png) no-repeat -147px 10px}
+.get_ico3{background:url(/Images/get_icon.png) no-repeat -373px 10px}
+.get_ico4{background:url(/Images/get_icon.png) no-repeat -585px 10px}
+.get_ico5{background:url(/Images/get_icon.png) no-repeat -805px 10px}
+.get_ico6{background:url(/Images/get_icon.png) no-repeat -990px 10px}*/
+.mazgine{width:100%;float:left}
+.master-cont{height:auto}
+.master-content{height:auto}
+.master_inn table tr td{width:100%;float:left;text-align:center}
+.arrow_n{float:left;text-align:center;width:100%;margin-bottom:15px}
+*{box-sizing:border-box;-webkit-box-sizing:border-box}
+.main_wrapper{max-width:100%;width:100%}
+.masterMenu{padding:0}
+.wrapper{width:100%;float:left}
+.header{width:100%;position:relative;text-align:center;float:left}
+.logo{width:100%;float:left;text-align:center;position:static;border-radius:0 0 0 0}
+.news_run li{height:50px;text-align:left;margin:0 auto;width:220px!important}
+.news_run ul li p{font-size:14px;width:100%;text-align:justify;margin:0}
+ul.main{float:left;width:100%;background:#3a54c1;padding:8px 0}
+.logo::before{content:'';position:relative;bottom:-25px;width:100px;background:none;height:25px;left:14px}
+.menu_1{display:inline-block;height:auto}
+.event_run ul li p{font-size:14px;width:100%;text-align:left}
+.event_run{display:block;width:100%;float:none;margin:0 auto;max-width:216px}
+.contant2{width:100%;float:left;text-align:center}
+.stu_birthday{width:100%;float:left;background:url(../Images/birthdaybc.png) no-repeat center;background-size:contain;border-right:none;border-bottom:1px solid #666}
+.read_m img{margin:2px 20px -2px -16px}
+.read_m a{width:100%;float:left}
+.stu_birth_in{width:100%;text-align:center;max-width:100%}
+div#gallry{width:175px!important;margin:0 auto}
+.birth_hed h1{margin:15px 0;font-size:25px}
+.menu_top{width:100%;line-height:initial}
+.main_menu{width:100%!important;height:auto!important;margin-top:0}
+.tabmenu{display:inline-block;cursor:pointer}
+.line1,.line2,.line3{width:35px;height:3px;background-color:#fff;margin:6px 0;transition:.4s}
+.activeT .line1{-webkit-transform:rotate(-45deg) translate(-8px,7px);transform:rotate(-45deg) translate(-8px,7px)}
+.activeT .line2{opacity:0}
+.activeT .line3{-webkit-transform:rotate(45deg) translate(-5px,-5px);transform:rotate(45deg) translate(-5px,-5px)}
+.menu{width:100%;display:none;overflow:hidden;top:0;margin:0!important;height:auto;position:static}
+.menu-icon{width:100%;float:left;text-align:center;height:38px;padding:2px 0 0;margin:8px 0 9px;display:block;background:#3652bc;cursor:pointer}
+.menu li{float:none;width:100%;margin-right:0}
+ul.submenu{position:static;width:100%;background:#cccf00;left:0}
+ul.dropmenu{position:static;width:100%;float:left;text-align:center}
+ul.submenu li{width:100%;text-align:center}
+.Photo_Gallery{width:100%;float:left}
+.Photo_Gallery_in{width:100%;float:left}
+.Photo_Gallery_hed p{margin:0 0 10px}
+.Photo_Gallery_hed{width:100%;float:left;text-align:center}
+.Photo_Gallery_hed h1{text-align:center;margin:15px 0 5px;font-size:25px}
+p.view_all_new a{text-align:center;margin-bottom:5px;display:block;float:none;position:static}
+.download_app{width:100%;float:left;margin-top:20px}
+.mobile_app{height:auto}
+.download_icons{width:100%;float:left;margin-top:20px}
+.mobile_app_in{width:100%;float:left}
+.school_code{width:100%;margin:20px 0 18px}
+.bottom_sec{height:auto}
+.bottom_sec_in{width:100%;text-align:center;float:left;margin-top:20px}
+.bottom_sec_icon{width:150px;float:none;margin:0 auto}
+.get_conet ul{width:100%;float:left}
+img.gryl{margin:0 10px 0 0}
+img.gryR{margin-left:10px}
+.get_icon{width:100%}
+.bottom_sec_in p{width:100%;line-height:24px}
+.Maintained{width:100%}
+.bottom_sec_in span{width:100%;text-align:center}
+.mangment_run li{height:250px;width:100%!important;margin:0 auto}
+.slider{width:100%;float:left;z-index:9;position:relative;height:auto}
+.sld_text > p{float:left;text-align:center}
+p.text_change{text-align:left}
+.flexslider .slides img{width:100%;display:block;height:auto}
+.icos{display:none}
+.up_event{width:100%;float:left;height:auto;text-align:center;border-right:none;border-bottom:1px solid #666}
+p.view_all a{float:left;position:static;margin:10px 0;width:100%;padding:0}
+.arrow_n1{float:left;text-align:center;width:100%;margin-bottom:15px}
+img.L_all{margin:10px 10px 0 0}
+img.V_all{margin:10px 0 0 10px}
+.sld_text > p{float:none}
+.msg_mangment{width:100%;float:left;height:auto}
+.msg_mangment_in{width:100%;float:left}
+.msg_hed{width:100%;float:left;text-align:center}
+.sld_mng{float:none;text-align:center;margin:0 auto}
+.arrow_n2{width:100%;float:left;text-align:center;margin-bottom:20px;margin-top:30px}
+.short_link{height:auto}
+.short_link_contant{width:100%;float:left}
+.get_conet{width:100%;float:left;padding:10px 0}
+.get_conet ul{text-align:center}
+.get_conet ul li{float:none;margin:0 auto;width:160px;display:inline-block;text-align:center}
+.sld_text{width:100%;padding:0 15px;text-align:center;margin:0}
+img.manegmntL{margin:10px 10px 0 0}
+img.manegmntR{margin:10px 0 0 10px}
+.msg_hed h1{width:100%;text-align:center;margin:15px 0 10px}
+.up_event_in{width:100%;text-align:center;float:left}
+.event_hed{width:100%;float:left;text-align:center}
+.event_hed h1{width:100%;float:left;font-size:25px;margin:15px 0 0;text-align:center}
+.event_run ul li span{margin-top:5px;font-size:14px;text-align:left}
+.event_run li{width:280px;margin:0 auto}
+.icos ul{width:100%;float:left;text-align:center;width:100%;padding:0;float:left}
+.icos ul li{display:inline-block;margin:0 5px}
+.about_schl{width:100%;float:left;height:auto}
+.contant{width:100%;float:left;margin:0;text-align:center}
+.about_schl_in{width:100%}
+.about_schl_in h1{text-align:center;margin:15px 0 10px;font-size:25px}
+.about_schl_in p{width:100%;padding:0 20px}
+span.read_more{float:right}
+.news_notic{width:100%}
+.contant1{width:100%;float:none}
+.news_notic_in{width:100%;float:left}
+.notic_hed h1{width:100%;text-align:center;margin:15px 0 0;font-size:25px}
+.news_run{max-width:100%;height:auto;width:100%}
+span.view_ll{width:100%;text-align:center;display:block;margin:0 auto;height:auto}
+span.view_ll a{width:100%}
+iframe.logo_main{float:none;width:240px;padding:0;text-align:center;height:auto}
+span.read_more a{margin-top:0;padding-left:15px;margin-bottom:15px}
+h1.mei-heding{font-size:25px;padding:5px 5px 5px 10px}
+.msg_hed h1{font-size:25px}
+ul.submenu{display:none}
+.right_next_b{right:20px;top:43px}
+.left_next_b{left:20px;top:43px}
+
+}
+@media screen and (max-width:768px) {
+.get_icon{width:100%}
+.get_ico1{background:url(../Images/get_icon.png) no-repeat 90px 10px}
+.get_ico2{background:url(../Images/get_icon.png) no-repeat -147px 10px}
+.get_ico3{background:url(../Images/get_icon.png) no-repeat -373px 10px}
+.get_ico4{background:url(../Images/get_icon.png) no-repeat -585px 10px}
+.get_ico5{background:url(../Images/get_icon.png) no-repeat -805px 10px}
+.get_ico6{background:url(../Images/get_icon.png) no-repeat -990px 10px}
+}
+
+@media screen and (min-width:768px) and (max-width:990px) {
+.get_conet ul li{width:160px}
+/*.mangment_run{height:221px!important}*/
+}
+@media screen and (min-width:768px) and (max-width:990px) {
+.get_conet ul li{width:249px}
+/*.mangment_run li{height:221px}*/
+}
+@media screen and (min-width:481px) and (max-width:767px) {
+div#gallry{width:370px!important;margin:0 auto}
+}
+@media screen and (min-width:0px) and (max-width:767px) {
+ul.main{padding:10px 15px}
+.menu_top ul li:nth-child(6){border:0}
+.menu_top ul li{width:100%;text-align:left;padding:5px 0 10px;border-bottom:1px solid #ccc}
+.menu_top ul li a{line-height:25px;padding:0}
+.right_next_b{right:20px;top:43px}
+.left_next_b{left:20px;top:43px}
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+.get_icon{width:100%}
+/*.get_ico1{background:url(/Images/get_icon.png) no-repeat 90px 10px}
+.get_ico2{background:url(/Images/get_icon.png) no-repeat -147px 10px}
+.get_ico3{background:url(/Images/get_icon.png) no-repeat -373px 10px}
+.get_ico4{background:url(/Images/get_icon.png) no-repeat -585px 10px}
+.get_ico5{background:url(/Images/get_icon.png) no-repeat -805px 10px}
+.get_ico6{background:url(/Images/get_icon.png) no-repeat -990px 10px}*/
+div#gallry{width:370px!important;margin:0 auto}
+.read_m{margin-top:-18px}
+/*.mangment_run{width:100%;height:300px;float:none;height:249px!important;max-width:320px;margin:0 auto}*/
+}
+@media screen and (max-width:812px) {
+.read_m{width:94px;margin-top:-15px}
+}
+@media screen and (max-width:767px) {
+.get_icon{width:100%}
+.get_conet ul li{float:none;margin:0 auto;width:190px;display:inline-block;text-align:center}
+.get_ico1{background:url(../Images/get_icon.png) no-repeat 65px 10px}
+.get_ico2{background:url(../Images/get_icon.png) no-repeat -174px 10px}
+.get_ico3{background:url(../Images/get_icon.png) no-repeat -398px 10px}
+.get_ico4{background:url(../Images/get_icon.png) no-repeat -612px 10px}
+.get_ico5{background:url(../Images/get_icon.png) no-repeat -836px 10px}
+.get_ico6{background:url(../Images/get_icon.png) no-repeat -1014px 10px}
+
+/*.mangment_run{width:100%;height:300px;float:none;height:245px!important;max-width:320px;margin:0 auto}*/
+}
+@media screen and (max-width:736px) {
+.read_m{width:128px;margin-top:-18px}
+
+}
+@media screen and (max-width:720px) {
+.get_icon{width:100%}
+.get_conet ul li{float:none;margin:0 auto;width:206px;display:inline-block;text-align:center}
+.get_ico1{background:url(../Images/get_icon.png) no-repeat 65px 10px}
+.get_ico2{background:url(../Images/get_icon.png) no-repeat -174px 10px}
+.get_ico3{background:url(../Images/get_icon.png) no-repeat -398px 10px}
+.get_ico4{background:url(../Images/get_icon.png) no-repeat -612px 10px}
+.get_ico5{background:url(../Images/get_icon.png) no-repeat -836px 10px}
+.get_ico6{background:url(../Images/get_icon.png) no-repeat -1014px 10px}
+}
+@media screen and (max-width:768px) {
+    .right_next_b { right: 140px;top: 43px;}
+    .left_next_b{left:140px;top:43px}
+}
+@media screen and (max-width:667px) {
+.read_m{width:107px;margin-top:-15px}
+.left_next_b{left:50px}
+
+.right_next_b{right:50px}
+}
+@media screen and (max-width:640px) {
+.read_m{margin-top:-17px;width:90px}
+.right_next_b{right:50px;top:43px}
+.left_next_b{left:50px;top:43px}
+}
+@media screen and (max-width:568px) {
+.get_conet ul li{float:none;margin:0 auto;width:185px;display:inline-block;text-align:center}
+.read_m{margin-top:-17px;width:115px}
+
+}
+@media screen and (max-width:480px) {
+.get_conet ul{width:100%;float:none;margin:0 auto;text-align:center}
+.svg_logo{width:100%;float:left}
+.get_icon{width:100%}
+.get_conet ul li{float:none;margin:0 auto;width:150px;display:inline-block;text-align:center}
+div#gallry{width:367px!important;margin:0 auto}
+.get_ico6{background:url(../Images/get_icon.png) no-repeat -1056px 10px}
+.left_next_b{left:10px;top:43px}
+.right_next_b{right:10px;top:43px}
+.get_ico1{background:url(../Images/get_icon.png) no-repeat 46px 10px}
+.get_ico2{background:url(../Images/get_icon.png) no-repeat -200px 10px}
+.get_ico3{background:url(../Images/get_icon.png) no-repeat -426px 10px}
+.get_ico4{background:url(../Images/get_icon.png) no-repeat -640px 10px}
+.get_ico5{background:url(../Images/get_icon.png) no-repeat -862px 10px}
+.get_ico6{background:url(../Images/get_icon.png) no-repeat -1044px 10px}
+}
+@media screen and (max-width:384px) {
+.read_m{margin-top:-17px;width:130px}
+.left_next_b{left:40px;top:43px}
+.right_next_b{right:40px;top:43px}
+}
+@media screen and (max-width:414px) {
+.event_run li{width:100%!important;padding:0 0 0 10px}
+div#gallry{width:175px!important;margin:0 auto}
+.get_icon{width:100%}
+.get_ico1{background:url(../Images/get_icon.png) no-repeat 40px 10px}
+.get_ico2{background:url(../Images/get_icon.png) no-repeat -201px 10px}
+.get_ico3{background:url(../Images/get_icon.png) no-repeat -423px 10px}
+.get_ico4{background:url(../Images/get_icon.png) no-repeat -642px 10px}
+.get_ico5{background:url(../Images/get_icon.png) no-repeat -866px 10px}
+.get_ico6{background:url(../Images/get_icon.png) no-repeat -1044px 10px}
+}
+@media screen and (max-width:480px) {
+.read_m{width:87px}
+}
+@media screen and (max-width:375px) {
+.read_m{width:125px}
+
+div#gallry{width:175px!important;margin:0 auto}
+.get_ico1{background:url(../Images/get_icon.png) no-repeat 46px 10px}
+.get_ico2{background:url(../Images/get_icon.png) no-repeat -200px 10px}
+.get_ico3{background:url(../Images/get_icon.png) no-repeat -426px 10px}
+.get_ico4{background:url(../Images/get_icon.png) no-repeat -640px 10px}
+.get_ico5{background:url(../Images/get_icon.png) no-repeat -862px 10px}
+.get_ico6{background:url(../Images/get_icon.png) no-repeat -1044px 10px}
+}
+@media screen and (max-width:320px) {
+.read_m{width:92px}
+.get_icon{width:100%}
+.sld_text{width:100%;padding:0 15px;text-align:center;margin:0}
+.mangment_run{height:245px!important}
+.left_next_b{left:20px;top:43px}
+.right_next_b{right:20px;top:43px}
+.get_conet ul li{float:none;margin:0 auto;width:145px;display:inline-block;text-align:center}
+.event_run li{width:100%!important;padding:0 0 0 10px}
+div#gallry{width:171px!important;margin:0 auto}
+.get_ico4{background:url(../Images/get_icon.png) no-repeat -650px 10px;background:url(../Images/get_icon.png) no-repeat -650px 10px}
+
+}
+

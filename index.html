@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Mirrored from www.kidsacademyprayagraj.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 20 May 2023 05:31:57 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head><title>
+	Welcome To Kids Academy, Pryagaraj
+</title><meta name="description" content="" /><link rel="shortcut icon" href="Images/favicon.png" /><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <script src="jquery/3.3.1/jquery.min.js"></script>
+    <script src="jquery/1.9.0/jquery.min.js"></script>
+    <script src="js/skdslider.min.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script src="js/shine.js"></script>
+    <script src="js/skdslider.min.js"></script>
+    <link href="StyleSheet/Slider_CSS/skdslider.css" rel="stylesheet" />
+    <link href="StyleSheet/Slider_CSS/StyleSheet.css" rel="stylesheet" />
+    <link href="StyleSheet/animation.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet" />
+    <link href="StyleSheet/StyleSheet4dbf4dbf.css?v=00ddd1" rel="stylesheet" /><link href="StyleSheet/responsive.css" rel="stylesheet" />
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".menu-icon").click(function () {
+                $(".menu").slideToggle(500), $(this).toggleClass("activeT");
+                $('.menu li ul').slideUp();
+            });
+
+            var menuwidth = $(window).width()
+            if (menuwidth < 1030) {
+                $('.menu li .click_in').click(function () {
+                    $('.menu li ul').slideUp('500');
+                    $(this).next('ul').slideUp('500');
+                    if ($(this).next('ul').is(':hidden')) { $(this).next('ul').slideDown('500'); }
+                    else {
+                        $(this).next('ul').slideUp('500');
+                    };
+                });
+
+               
+             
+                $('.click_in1').click(function () {
+                    // $(this).next('ul').slideToggle('500');
+                    $('.click_in1').next('ul').slideUp('500');
+                    if ($(this).next('ul').is(':hidden')) { $(this).next('ul').slideDown('500'); }
+                    else {
+                        $(this).next('ul').slideUp('500');
+                    };
+
+
+                });
+            }
+
+        });
+    </script>
+    
+    <script>
+        $(document).ready(function () {
+            $('#slides').flexslider({
+                animation: "fade",
+                slideshowSpeed: 4500,
+                animationSpeed: 600
+
+            });
+        });
+    </script>
+    <style>
+        ul.main {
+    text-align: center;
+    width: 1050px;
+    margin-left: 250px;
+}
+
+        .oasis-tab {
+    position: absolute;
+    right: 10px;
+    top: 195px;
+    z-index:999;
+    width:250px;
+}
+
+    .oasis-tab a {
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    background: #3652bc;
+    text-align: center;
+    display: inline-block;
+    padding: 13px 35px;
+    animation: blinkingText 1.5s infinite;
+    font-weight: 600;
+    width:100%;
+    display:block;
+    margin-top:20px;
+}
+     @keyframes blinkingText {
+
+        0%   {background: #3652bc;}
+      50%  {background: #ccd02b; color:#000;font-weight: 600;font-size: 15px;}     
+      100% {background: #3652bc;}
+
+    
+        }
+
+        #msgurgent { display: none; z-index: 1000000; position: fixed; left: 0; top: 0; background-color: #000;width: 100%; height: 100vh;color: #fff;text-align: center;}
+#msgurgent .browsermsg   { position: relative; left: 0;right: 0;top: 30%; bottom: 0;margin: auto; width: 370px; height: 130px;background-color: #fff; color: #000; padding: 20px; line-height: 30px;  border: 1px solid #727272;}
+.browsermsg p{text-align: left;}
+.browsermsg p, .browsermsg ul li span, .browsermsg ul li a{ font-size: 13px; line-height: 16px; color: #000; font-weight: normal;}
+.browsermsg ul li span, .browsermsg ul li a{text-align: center; display: inline-block; border: 1px solid #727272;float: left; padding: 4px 8px; text-transform: capitalize; width: 140px; margin: 0 8px;}
+.browsermsg ul{ margin-top: 23px; display: inline-block;}
+.browsermsg ul li span{ cursor: pointer;}
+.browsermsg ul li {display: inline-block; float: left;}
+.flex-control-nav {left: 49%; text-align: inherit;}
+        .menu {
+            margin-top: 40px;
+        }
+        .menu_top ul.main li a:hover {
+    background: #cccf00;
+    transition: .6s;
+}
+
+ul.menu li > .submenu {
+    display: none;
+    position: absolute;
+    padding: 0px;
+    z-index: 999999998;
+    min-width: 100%;
+    left: 0;
+    float: left;
+}
+.submenu li > ul, .submenu li ul li > ul {
+    display: none;
+}
+
+.submenu-child-right {
+    right: 100%;
+    left: inherit !important;
+}
+ul.menu li > .submenu li:hover a {
+    background: #3652bc;
+    color: #fff;
+}
+.extra_link {
+    position: absolute;
+    top: 54px;
+    right: 10px;
+}
+
+
+@media screen and (min-width:0px) and (max-width:1024px) {
+ .flex-control-nav {left:0; text-align: center;}
+.menu_top { width: 100%;  line-height:initial;}
+.main_menu { width: 100%; height: auto;  margin-top: 0;}
+.tabmenu {display: inline-block; cursor: pointer;}
+.line1, .line2, .line3 { width: 35px;  height: 3px;  background-color: #fff;  margin: 6px 0; transition: 0.4s;}
+.activeT .line1 { -webkit-transform: rotate(-45deg) translate(-8px, 7px);  transform: rotate(-45deg) translate(-8px, 7px);}
+.activeT .line2 {opacity: 0;}
+.activeT .line3 { -webkit-transform: rotate(45deg) translate(-5px, -5px);  transform: rotate(45deg) translate(-5px, -5px);}
+.menu { width: 100%;display: none;margin-left: 1%;overflow: hidden;top: 0;margin: 0 !important;height: auto;position: static;}
+.menu-icon{    width: 100%;    float: left;    text-align: center;    height: 38px;    padding: 2px 0 0 0;    margin: 8px 0 9px 0%;    display: block;    background: #3652bc;    cursor: pointer;}
+.menu li { float: none;width: 100%;margin-right: 0px;}
+/*ul.submenu { position: static;    width: 100%;    background: #3757d0;    left: 0;}*/
+ul.dropmenu { position: static;   width: 100%;    float: left;    text-align: center;}
+ul.submenu li {  width: 100%;  text-align: center;}
+.extra_link {
+    position: static;
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-top: 5px;
+    background: #c5cb13;
+}
+
+}
+
+
+ @media screen and (max-width:1100px) {
+            .submenu li ul {position: static; background: #4863d0;}
+            ul.submenu2{ width:100%;}
+        }
+
+
+        @media screen and (min-width: 0px) and (max-width: 767px) {
+
+
+            ul.main {
+                padding: 10px 15px;
+                max-width: 100%;
+                margin-left: 0 !important;
+            }
+            .oasis-tab {
+    position: static;
+    text-align: center;
+}
+        }
+    </style>
+
+    <script>
+
+
+        $(document).ready(function () {
+            $('#slides').flexslider({
+                animation: "fade",
+                slideshowSpeed: 4500,
+                animationSpeed: 600
+
+            });
+        });
+
+    </script>
+       <script src="js/jcarousellite_1.0.1c4.js"></script>
+
+    <script type="text/javascript">
+        $(function () {
+
+            $(".news_run").jCarouselLite({
+                vertical: true,
+                hoverPause: true,
+                btnPrev: ".gryl",
+                btnNext: ".gryR",
+                visible: 1,
+                auto: 3000,
+                speed: 800,
+            });
+        });
+        $(function () {
+
+            $(".event_run").jCarouselLite({
+                vertical: true,
+                hoverPause: true,
+                btnPrev: ".L_all",
+                btnNext: ".V_all",
+                visible: 2,
+                auto: 3000,
+                speed: 800,
+            });
+        });
+
+        $(function () {
+            $(".mangment_run").jCarouselLite({
+                vertical: true,
+                hoverPause: true,
+                btnPrev: ".manegmntL",
+                btnNext: ".manegmntR",
+                visible: 1,
+                auto: 3000,
+                speed: 800,
+            });
+        });
+        $(function () {
+            $("#bdayy").jCarouselLite({
+                horizontal: true,
+                hoverPause: true,
+                btnPrev: ".l_next_b",
+                btnNext: ".r_next_b",
+                visible: 1,
+                auto: 3000,
+                speed: 800,
+            });
+        });
+        $(function () {
+            $("#gallry").jCarouselLite({
+                horizontal: true,
+                hoverPause: true,
+                btnPrev: ".left_next_b",
+                btnNext: ".right_next_b",
+                visible: 2,
+                auto: 3000,
+                speed: 800,
+            });
+        });
+    </script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+</head>
+
+
+<body>
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="WebResource34703470.js?d=IBU4_SBsG454NpQQgbRigSsgGc5xKvrQaF9UDnyBElxgUCpg93nWs3R9U-n6viNeJgoiJBBPwYhFNxGI8tOUMqJe1NQ1&amp;t=637292261023430478" type="text/javascript"></script>
+
+
+<script src="ScriptResourceb109b109.js?d=GBCEwi6Sg54k5l-zyTTNR9X51E2TVWVf0bkcg_Mcb5GJ5OXettJBU_NvE2UFQLzBPk_PPQBrCCzRw6thAFJ0Ben-d_uztl6UnmvnaFKHGmnnyBfTyE3Wz35kbE0RRGhTyWXrBvyimmqAWC2VBeMMDb3l2bzM_CQrulURYBta3UGA-DGG0&amp;t=3f4a792d" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="ScriptResource6fba6fba.js?d=57cyUNbyj_L95orvsNEzaO4bfDw2cxWzudv-2M6xerbe6Ar-9p1JuMERVJLZ2X6dn5jpTWcxJqB5z-0LK61UCJ7XnAM2GiuFnmopIbs1iDflTZCScRL9pIwtKspJwTenWQStXdHzIZTAGbPWRG5h9yPMdEB05SMEj3oWr2azfKSyycqu0&amp;t=3f4a792d" type="text/javascript"></script>
+<script src="ScriptResourceeebceebc.html?d=0s75-iZnH_nfMcl9PAg0hXm1HwDs5sZTAT8Aq1GG_3xWHkJ0Oy4t-EGUqv6oB7K8SVFiONSR2Bgr-iKa4wrpyHjyaJeY5N-QDr2ViSDghgDTDHRIDiYbLYU6-etui-bWhtmgot7DYxAwaZ-gyPfaHQP-ksc1&amp;t=5f6a2d32" type="text/javascript"></script>
+<script src="ScriptResource21c221c2.html?d=RCbVSbknoNWpgGQR-huOV-IZz9Gm1ycw6qsNNAwEMc8zNcr_FBZYNzHx_08DMmTOT42FbwH7wNZEeHma2GvRXGuSeaKg36qA1L-rcqq8IMaY38gPvmz1cJSVsxqzLHgX5tXa6PLjTBBAlZB3blgJhzc_ZUg1&amp;t=5f6a2d32" type="text/javascript"></script>
+<script src="ScriptResource0d950d95.html?d=DfzHrqa_3x6i2QWggQLZsRnjrEkWL0B2I2M0PU7Z4w9F9ZQW8KMfWJ5GlPkKtnBwyA2lSNql7zH-YhcIxL-1rL_BFqkyLTk1-L0Z-fmBzFN_1TA8QZeUn-ACcdpQQce9lqiNS5I1HOViGS2Z1zP2fR28li2uJ0empT7CtLw-9OtY0a_B0&amp;t=5f6a2d32" type="text/javascript"></script>
+<script src="ScriptResource62076207.html?d=daeFODJvF-HCxftHeqiNFS7fKgu4g-udgjtAkjhRo94Qw9aNS3nE8RcO14fVaaXtS53-8MzB9lL6-mmzoxMO75SZ2Cz-2vZNTCmoQoUuaX-QkIbOs99SaxjSYCzqwLiQtq9j7eoWpmtg1v2mz80sFURoky41&amp;t=5f6a2d32" type="text/javascript"></script>
+<script src="ScriptResourced4c5d4c5.html?d=muT-FgbCETONYe_k2PlkIayRC288JmyqrvyeEp9uQGP_1zQVnNz2K-hSKoYcAZhA-1zQr1PDCAMHGAyedawr8wEjDIOR_2bkRSXSJtP47lENxTIkD6lHuupuUJPzEMWRDFrzM3JRhfV2Rawo5Nb_2K1FNJs1&amp;t=5f6a2d32" type="text/javascript"></script>
+<script src="ScriptResource0b000b00.html?d=si0wpzQwHIvjyCdf9-NeYtIlG0twOXm7tLezBZZigGGRy7IY0dzsMBlKNkpLfypYR0KeesWinemG2-Cj8jmxJSWMYleCg0i6ThZlcgkauqp9pNnJ4ogUinL1q1NwQeId79uTSJhRKAHwKoT0tFau3Qc_5aDIdw1Fmq6IbQh3buAhBkLw0&amp;t=5f6a2d32" type="text/javascript"></script>
+<script src="ScriptResource208f208f.html?d=5AVq8twzY-BJIcJp6u0bJxM67tqHMYUix5N2kpyTFcM1YZtV48mPPeJjfw8jAAZA9NcEzBBj3MCJoR-EauDypawhmcge7xoIFj7ZxJbsHMBKbuKeA6dplpN76fw3eK5ykIXuqAW5y3pBfxQuGGiqKORhwfH3qlw9cHMarFnhlsD40Bgr0&amp;t=5f6a2d32" type="text/javascript"></script>
+<script src="ScriptResourcea3a2a3a2.html?d=-wsZCLLAobwOUP6RHVluhC-IHfg7nHTdhOlm2k8rlkCyvg0iQLlNlDAsq5SjCOJO9sjpLIJbT8eLf-s7dqdOkd8vXZJAJMMQe7b6sZ4NR0dJiccPU-NmCA8kzX8gTATUcVzp2ji7bz1RNEBhctIRueKZQIen3Qb4etcOKXR0RKC7xrGG0&amp;t=5f6a2d32" type="text/javascript"></script>
+<script src="ScriptResource8d9d8d9d.html?d=bX3haOHiKLY9y8V37cXIEDKw1E78hpNTv5rQugNm2Ap-3wjweKcdKyUsRhcXyScSrkeUhSXrSUU0D3JQ_82QwP2kC4FssQ_lan2Djt3MYprgEykEwGJsRMT2a15w7oOKmZYb4s71NaswGSnsTLy04fZuPnM_ArnF9Y5nboWsPlJUlFdO0&amp;t=5f6a2d32" type="text/javascript"></script>
+<div>
+</div>
+ <div id="msgurgent">
+        <div class="browsermsg">
+            <p>
+                You are using an outdated browser, some site features may not function as expected.
+                Update your browser for the best viewing experience.</p>
+            <ul>
+                <li><a href="https://www.google.co.in/chrome/" target="_blank">Download Latest</a></li>
+                <li><span>continue</span></li>
+            </ul>
+        </div>
+    </div>
+  <div class="main_wrapper">
+            <div class="wrapper">
+                <div class="header">
+                    <div class="logo">
+                        <div id="logo">
+                            <div class="slogoinner ">
+                                <a href="index-2.html" title="Kids Academy, Prayagraj">
+                                    <iframe src="logo.png" frameborder="0" width="240" height="100" class="logo_main"></iframe>
+
+                                </a>
+                               
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="menu_top">
+                        <ul class="main">
+                            <li><a href="index-2.html">Home</a></li>
+                            <li><a href="webfacd.html?pageurl=infrastructure">Infrastructure</a></li>
+                         	 <li><a href="#">Achievements</a></li>
+                            <li><a href="web1787.html?pageurl=admission">Admission</a></li>
+                            <li><a href="web455a.html?pageurl=download">Important Downloads</a></li>
+                            <li><a href="web9bab.html?pageurl=tcsearch">Transfer Certificate</a> </li>
+                              
+                         
+                          
+
+
+                             <li><a href="web9b24.html?pageurl=mandatary">Mandatory Public Disclosure</a></li>
+
+                        </ul>
+                    </div>
+
+
+                </div>
+                <div class="slider">
+                    <div id="slides" class="slider flexslider">
+                        <ul class="slides">
+                            <li><img src="slider/4.jpg" alt="Best School In Prayagraj" /></li>
+                            <li><img src="slider/1.jpg" alt="Best School In Prayagraj" /></li>
+                               <li><img src="slider/2.jpg"  alt="Best Schools In Prayagraj" /></li>
+                            <li><img src="slider/3.jpg"  alt="Best Schools In Prayagraj" /></li>
+                        
+                        </ul>
+                    </div>
+                </div>
+                <div class="oasis-tab">
+                    
+                      <a href="marks/teacher.html" target="_blank"> Staff Login</a>
+             </div>
+                  <div class="oasis-tab">
+                 
+</div>
+                 <div class="oasis-tab" style="margin-top:60px;">
+                    <a href="https://schoolerp.f1web.in/online_admission_enquiry" target="_blank">Admission Enquiry</a>
+                </div>
+
+                <div class="oasis-tab" style="margin-top:60px;">
+                   
+                </div>
+
+                
+
+
+                <div class="main_menu">
+
+                    <div class="menu-icon">
+                        <div class="tabmenu">
+                            <div class="line1"></div>
+                            <div class="line2"></div>
+                            <div class="line3"></div>
+                        </div>
+                    </div>
+                      <div class="menu" id="menu">
+                        <ul class="dropmenu">
+                            <li><a href="javascript:void(0)" class="click_in">about us</a>
+                                <ul class="submenu abu_us">
+
+                                    <li><a href="webedd0.html?pageurl=about_us">About School</a></li>
+                                   
+                                    <li><a href="webf8b1.html?pageurl=mission">Vision and Mission</a></li>
+                                    <li><a href="webc650.html?pageurl=logo">Logo of School</a></li>
+                                     <li><a href="web0c44.html?pageurl=aim">Aims and Objectives</a></li>
+                                       <li><a href="webfacd.html?pageurl=infrastructure">Infrastructure</a></li>
+                                         <li><a href="admin/uploads/Kids%20Academy%20Prospectus%20.pdf" target="_blank">Prospectus</a></li> 
+                                </ul>
+                            </li>
+                           
+                           
+                              <li><a href="javascript:void(0)" class="click_in">Messages</a>
+                            <ul class="submenu prospes">
+                                <li><a href="web3d53.html?pageurl=managersms">Director Message</a></li>
+                               <li><a href="web98a5.html?pageurl=principalsms">Principal Message</a></li>
+                                
+                            </ul>
+                        </li>
+								<li><a href="javascript:void(0)" class="click_in">Gallery</a>
+                                <ul class="submenu prospes">
+                                    <li><a href="webe426.html?pageurl=photo-gallery">Photo Gallery</a></li>
+                                    <li><a href="web8beb.html?pageurl=videogallery">Video Gallery</a></li>
+                                    <li><a href="#">Media Gallery</a></li>
+                                 
+                           
+                           
+                                </ul>
+                            </li>
+                            <li><a href="javascript:void(0)" class="click_in">Kids' Family</a>
+                                <ul class="submenu prospes">
+                                    <li><a href="#">Teachers' Group Photos</a></li>
+                                    <li><a href="#">Class Group Photos</a></li>
+                                    
+                                </ul>
+                            </li>
+                            <li><a href="pdf/Calendar%2022-%2023.pdf" target="_blank">School Calendar 2022-23</a> </li>
+                            <li><a href="javascript:void(0)" class="click_in">Contact Us</a>
+                                <ul class="submenu off_bear">
+                                    
+                                    <li><a href="webbdb4.html?pageurl=contact">Mail Us</a></li>
+                                    
+                                  
+                                </ul>
+                            </li>
+                            
+                            
+                             
+
+
+                        </ul>
+                    </div>
+              </div>
+            </div>
+            <div class="icos">
+                <div class="icons-in">
+                    <ul>
+                        <li><a class="soc_iconh soc_icon1 " href="https://apps.apple.com/in/app/e-care-pro/id1435475202" title="iPhone mobile app" target="_blank"></a></li>
+                   
+                        <li><a class="soc_iconh soc_icon3 " href="https://play.google.com/store/apps/details?id=com.franciscan.ecare_pro" title="Google play store" target="_blank"></a></li>
+                        <li><a class="soc_iconh soc_icon4 " href="Menu/ContactDirection/Mail-Us.html" title="Mail Us"></a></li>
+
+                    </ul>
+                </div>
+            </div>
+
+       
+       
+     <div class="wrapper">
+
+         <div class="about_schl">
+             <div class="contant">
+                 <div class="about_schl_in">
+                     <h1>about <span>school</span> </h1>
+                     <p>
+                        Kids academy is an amicable school where students enjoy learning.
+It follows a co-education system of education from classes 1 to 10th| based
+On the CCC norms of the CBSE.
+Founded in the year 2006, it is situated on 225, REWA ROAD, MAHEWA, ALLAHABAD(PRAYAGRAJ).
+Kids Academy ensures a holistic approach towards development of the...  <span class="read_more"><a href="webedd0.html?pageurl=about_us">read more</a></span>
+                     </p>
+                 </div>
+             </div>
+         </div>
+         <div class="news_notic">
+             <div class="contant1">
+                 <div class="news_notic_in">
+                     <div class="notic_hed">
+                         <h1>News & <span>Notice</span> <span class="view_ll"><a href='Menu/Notices/AllNotice.html'>view All</a></span> </h1>
+
+                     </div>
+                     <div class="news_run">
+                                                  <span id="newnotice_lblnoticedownloads"> <ul>   
+                          <li>   <p> <a style='color:white;'  href='webb9b1.html?pageurl=news&amp;id=1'>Happy Dussehra</a></p>     <span>Updated On: 2022-10-05 10:31:35</span>          </li>    </ul></span>
+
+                     </div>
+                     <div class="arrow_n">
+                         <img src="Images/top12.png" class="gryl" />
+                         <img src="Images/dwon.png" class="gryR" />
+                     </div>
+                 </div>
+
+
+             </div>
+
+         </div>
+     </div>
+
+        <div class="wrapper">
+
+
+            <div class="up_event">
+                <div class="contant">
+                    <div class="up_event_in">
+                        <div class="event_hed">
+                            <h1>Upcoming  <span>events</span>
+                                <p class="view_all"><a href="webb6af.html?pageurl=allevent">view All</a></p>
+                            </h1>
+                        </div>
+                        <div class="event_run">
+                            <ul>
+                                
+                                <span id="lblevent"><li> <p>Maha Shivratri</p><span>Updated on:1-Mar-2022</span></li><li> <p>Shab-E-Barat</p><span>Updated on:18-Mar-2022</span></li></span>
+
+                            </ul>
+
+                        </div>
+                        <div class="arrow_n1">
+                            <img src="Images/top12.png" class="L_all" />
+                            <img src="Images/dwon.png" class="V_all" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="msg_mangment">
+                <div class="contant1">
+                    <div class="msg_mangment_in">
+                        <div class="msg_hed">
+                            <h1>from Management's <span>desk </span></h1>
+                        </div>
+                        <div class="mangment_run">
+                            <ul>
+                                <li>
+                                    <div class="sld_mng">
+                                        <img src="Images/principal1.png" />
+                                    </div>
+                                    <div class="sld_text">
+                                        <p>Mrs. Manisha Arora  <br /><span>(Academy Principal)</span></p>
+                                        <p class="text_change">
+                                            Thus education is not merely acquisition of information or skills but transformation of ... 
+                                           
+                                        </p>
+
+                                    </div>
+                                    <div class="read_m">
+                                        <a href="web98a5.html?pageurl=principalsms">read more</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="sld_mng">
+                                        <img src="Images/Director1.png" />
+                                    </div>
+                                    <div class="sld_text">
+                                        <p>Mr. Jyoti Arora  <br /><span>(Academy Director)</span></p>
+                                        <p class="text_change">
+                                            FChildren regardless of their age, class, race or background mostly are not like a Notebook...
+                                        </p>
+
+                                    </div>
+
+                                    <div class="read_m">
+                                        <a href="web3d53.html?pageurl=managersms">read more</a>
+                                    </div>
+                                </li>
+                                
+                               
+                            </ul>
+                        </div>
+                        <div class="arrow_n2">
+                            <img src="Images/top12.png" class="manegmntL" />
+                            <img src="Images/dwon.png" class="manegmntR" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="wrapper">
+            <div class="short_link">
+                <div class="short_link_contant">
+                    <div class="get_conet">
+
+                        <ul>
+                            <li><a href="#"  target="_blank">
+                                <div class="get_icon get_ico1">Kids’ Corner</div>
+                            </a></li>
+                            <li><a href="https://youtu.be/UiH7-v24D8M"  target="_blank">
+                                <div class="get_icon get_ico2">Campus Tour</div>
+                            </a></li>
+                            <li><a href="Images/Kidsapplication.jpg" target="_blank">
+                                <div class="get_icon get_ico3">Vacancies</div>
+                            </a></li>
+                            
+                          
+                            <li><a href="#">
+                                <div class="get_icon get_ico6">Achievments</div>
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="contant2">
+
+                <div class="stu_birthday">
+                    <div class="stu_birth_in">
+                        <div class="birth_hed">
+                            <h1>today’s  <span>birthdays</span> </h1>
+                            <p>students</p>
+                        </div>
+                        <div class="birth_run">
+                            <div class="bday-slid" id="bdayy">
+                                <ul>
+                                    <div id="Panel1">
+	
+
+
+
+                                        
+
+                                                <li>
+                                                    <a href="#" target="_blank">
+
+                                                          <div class="birth_boy">
+                                                            <img src="#" />
+
+                                                        </div></a>
+                                                            <p style="width: auto">LKG <br />(1-B)</p>
+                                      </li>
+                                            
+
+                                                <li>
+                                                    <a href="#" target="_blank">
+
+                                                          <div class="birth_boy">
+                                                            <img src="#" />
+
+                                                        </div></a>
+                                                            <p style="width: auto">.. Khanna <br />(UKG-B)</p>
+                                      </li>
+                                            
+
+                                         
+
+
+                                    
+
+
+
+
+                                </ul>
+                            </div>
+                            <div class="birth_arrow">
+                                <img src="Images/news_view_b.png" class="l_next_b" />
+                                <img src="Images/news_view_black.png" class="r_next_b" />
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="Photo_Gallery">
+                    <div class="Photo_Gallery_in">
+                        <div class="Photo_Gallery_hed">
+                            <h1>Photo  <span>Gallery</span> 
+                                  
+                            </h1>
+                            <p class="view_all_new"><a href="#">view All</a></p>
+                            <span id="lblphoto"><p class=first_new>The Year End Presentation... <b>Updated on:</b> 14-Feb-2020</p></span>
+
+
+                        </div>
+                        <div class="gallry_run">
+                            <div class="gallry-slid" id="gallry">
+                                <ul>
+
+                                    <span id="homephotog_LBPhoto">   <li>   <a href='#'>   <img src='#' /></a> </li>  </span>
+
+
+                                    
+                                </ul>
+
+                            </div>
+                            <div class="birth_arrow">
+                                <img src="Images/news_view_b.png" class="left_next_b" />
+                                <img src="Images/news_view_black.png" class="right_next_b" />
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+       
+      
+        </div>
+        
+        <div class="wrapper"><div class="bottom_sec"><div class="bottom_sec_in"><p> 2018 Kids Academy Prayagraj. All Rights Reserved.</p>
+                    <div class="bottom_sec_icon">
+                        <ul>
+                            <li><a class="soc_iconh soc_icons1 " href="https://www.facebook.com/pages/category/School/Kids-Academy-100321134694558/" title="Facebook" target="_blank"></a></li>
+                            <li><a class="soc_iconh soc_icons2 " href="#" title="Twitter"target="_blank"></a></li>
+                            <li><a class="soc_iconh soc_icons3 " href="#" title="Google+"target="_blank"></a></li>
+                            <li><a class="soc_iconh soc_icons4 " href="#" title="Linkedin"target="_blank"></a></li>
+                            <li><a class="soc_iconh soc_icons5 " href="#" title="Instagram"target="_blank"></a></li>
+                       <li><a class="soc_iconh soc_icons6 " href="#" title="Youtube"target="_blank"></a></li>
+                      </ul>
+                    </div>
+                    <div class="Maintained">
+                        <span>Designed & Maintained by : <a href="#" target="_blank" title="An Educational Technology Consultant">
+                            F1 Multi Services</a></span>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+        <a href="#" class="back-to-top">
+            <img src="images/top.html" /></a>
+        
+<style>
+.close-flyer{ display:none;} 
+.modalBackground{background-color: Black; filter: alpha(opacity=50); opacity: 0.80; z-index: 10000;}
+
+@media only screen
+and (max-width : 900px) 
+{ 
+#btnCancel1{ width:90%;margin:0 auto;} 
+.flyer-m{ max-width:90%; position:absolute!important; top:20px!important;}
+#iframeid{ max-width:100%;}
+#flyer_iframeid { width:100%;}
+.close-flyer{ position:absolute; right:1px; top:1px;border:none; display:block; width:50px; height:50px;} 
+.flyerbtnnew input[type="submit"]{border:none;display:block; width:50px; height:50px; background:url(error.html)no-repeat center center; background-color:none; border:none; margin-top:-10px; margin-right:-10px;}
+}
+
+</style>
+<div id="btnCancel1">
+        <div style="display: none">
+            <span id="flyer_Dummy5"></span></div>
+    
+        <div id="flyer_pnlholi" class="flyer-m" background-color="Transparent" style="border-color:Red;border-width:0px;border-style:Solid;height:550px;width:760px;display: none">
+	
+            <div id="">
+            <div class="flyerbtnnew">
+            <input type="submit" name="flyer$ImageButton1" value="Close " id="flyer_ImageButton1" title="Close" class="close-flyer" /></div>
+            </div>
+            <div id="flyer_UpdatePanel4">
+		
+                   
+                    <iframe id="flyer_iframeid" src="flyer/flyer.html" width="721" class="iframeid" frameborder="0" height="750px" scrolling="no" allowtransparency="true" style="margin-top: 0px;
+                        float: left; margin-left: 0px;"></iframe>
+                
+	</div>
+        
+</div>
+</div>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {AjaxControlToolkit.ModalPopupBehavior.invokeViaServer('flyer_MPHoli', true); Sys.Application.remove_load(fn);};Sys.Application.add_load(fn);})();Sys.Application.initialize();
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.ModalPopupBehavior, {"BackgroundCssClass":"modalBackground","CancelControlID":"btnCancel1","OnCancelScript":"document.getElementById(\u0027iframeid\u0027).src=\u0027\u0027;","PopupControlID":"flyer_pnlholi","dynamicServicePath":"/default.aspx","id":"flyer_MPHoli","repositionMode":2}, null, null, $get("flyer_Dummy5"));
+});
+//]]>
+</script>
+    <script>
+        document.addEventListener('contextmenu', event => event.preventDefault());
+        $(document).ready(function () {
+            var ctrlDown = false,
+                ctrlKey = 17,
+                cmdKey = 91,
+                vKey = 86,
+                cKey = 67;
+
+            $(document).keydown(function (e) {
+                if (e.keyCode == ctrlKey || e.keyCode == cmdKey) ctrlDown = true;
+            }).keyup(function (e) {
+                if (e.keyCode == ctrlKey || e.keyCode == cmdKey) ctrlDown = false;
+            });
+
+            $("body").keydown(function (e) {
+                if (ctrlDown && (e.keyCode == vKey || e.keyCode == cKey)) return false;
+            });
+
+            // Document Ctrl + C/V 
+            $(document).keydown(function (e) {
+                if (ctrlDown && (e.keyCode == cKey)) console.log("Document catch Ctrl+C");
+                if (ctrlDown && (e.keyCode == vKey)) console.log("Document catch Ctrl+V");
+            });
+        })
+
+    </script>
+    <script>
+     
+
+        jQuery(document).ready(function() {
+            function disableSelection(e) {
+                if (typeof e.onselectstart != "undefined") e.onselectstart = function() {
+                    return false
+                };
+                else if (typeof e.style.MozUserSelect != "undefined") e.style.MozUserSelect = "none";
+                else e.onmousedown = function() {
+                    return false
+                };
+                e.style.cursor = "default"
+            }
+            window.onload = function() {
+                disableSelection(document.body)
+            };
+
+            window.addEventListener("keydown", function(e) {
+                if (e.ctrlKey && (e.which == 65 || e.which == 66 || e.which == 67 || e.which == 70 || e.which == 73 || e.which == 80 || e.which == 83 || e.which == 85 || e.which == 86)) {
+                    e.preventDefault()
+                }
+            });
+            document.keypress = function(e) {
+                if (e.ctrlKey && (e.which == 65 || e.which == 66 || e.which == 70 || e.which == 67 || e.which == 73 || e.which == 80 || e.which == 83 || e.which == 85 || e.which == 86)) {}
+                return false
+            };
+
+            document.onkeydown = function(e) {
+                e = e || window.event;
+                if (e.keyCode == 123 || e.keyCode == 18) {
+                    return false
+                }
+            };
+
+            document.oncontextmenu = function(e) {
+                var t = e || window.event;
+                var n = t.target || t.srcElement;
+                if (n.nodeName != "A") return false
+            };
+            document.ondragstart = function() {
+                return false
+            };
+        });
+    </script>
+</body>
+
+<!-- Mirrored from www.kidsacademyprayagraj.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 20 May 2023 05:35:26 GMT -->
+</html>
