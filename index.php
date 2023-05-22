@@ -30,32 +30,35 @@ include "include/header.php";
             <div class="about_schl_in">
                 <h1>about <span>school</span> </h1>
                 <p>
-                    Kids academy is an amicable school where students enjoy learning.
-                    It follows a co-education system of education from classes 1 to 10th| based
-                    On the CCC norms of the CBSE.
-                    Founded in the year 2006, it is situated on 225, REWA ROAD, MAHEWA, ALLAHABAD(PRAYAGRAJ).
-                    Kids Academy ensures a holistic approach towards development of the...
+                    New Ideal Convent School & College is an amicable school where students enjoy learning.
+                    It follows a co-education system of education from classes 1 to 12th based on the CCC norms of the
+                    CBSE. Founded in the year 2006, it is situated on Itahara Border, NH-31, Mungra Badshahpur, Jaunpur,
+                    U.P., India. New Ideal Convent School & College ensures a holistic approach towards development of
+                    the...
                     <span class="read_more">
-                        <a href="webedd0.html?pageurl=about_us">read more</a>
+                        <a href="about_us.php">read more</a>
                     </span>
                 </p>
             </div>
         </div>
     </div>
+
     <div class="news_notic">
         <div class="contant1">
             <div class="news_notic_in">
                 <div class="notic_hed">
-                    <h1>News & <span>Notice</span> <span class="view_ll"><a href='Menu/Notices/AllNotice.html'>view
-                                All</a></span> </h1>
-
+                    <h1>News & <span>Notice</span>
+                        <span class="view_ll"><a href='Menu/Notices/AllNotice.html'>view All</a></span>
+                    </h1>
                 </div>
                 <div class="news_run">
                     <span id="newnotice_lblnoticedownloads">
                         <ul>
                             <li>
-                                <p> <a style='color:white;' href='webb9b1.html?pageurl=news&amp;id=1'>Happy Dussehra</a>
-                                </p> <span>Updated On: 2022-10-05 10:31:35</span>
+                                <p>
+                                    <a style='color:white;' href='webb9b1.html?pageurl=news&amp;id=1'>Happy Dussehra</a>
+                                </p>
+                                <span>Updated On: 2022-10-05 10:31:35</span>
                             </li>
                         </ul>
                     </span>

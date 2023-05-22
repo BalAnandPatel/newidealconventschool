@@ -535,12 +535,12 @@
 
                 <div class="menu_top">
                     <ul class="main">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="webfacd.html?pageurl=infrastructure">Infrastructure</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="infrastructure.php">Infrastructure</a></li>
                         <!-- <li><a href="#">Achievements</a></li> -->
-                        <li><a href="web1787.html?pageurl=admission">Admission</a></li>
-                        <li><a href="web455a.html?pageurl=download">Important Downloads</a></li>
-                        <!-- <li><a href="web9bab.html?pageurl=tcsearch">Transfer Certificate</a> </li> -->
+                        <li><a href="admission.php">Admission</a></li>
+                        <li><a href="download.php">Important Downloads</a></li>
+                        <!-- <li><a href=tc.php">Transfer Certificate</a> </li> -->
                         <li><a href="mandatory.php">Mandatory Public Disclosure</a></li>
                     </ul>
                 </div>
@@ -560,21 +560,21 @@
 
                         <li><a href="javascript:void(0)" class="click_in">about us</a>
                             <ul class="submenu abu_us">
-                                <li><a href="webedd0.html?pageurl=about_us">About School</a></li>
-                                <li><a href="webf8b1.html?pageurl=mission">Vision and Mission</a></li>
-                                <li><a href="webc650.html?pageurl=logo">Logo of School</a></li>
-                                <li><a href="web0c44.html?pageurl=aim">Aims and Objectives</a></li>
-                                <li><a href="webfacd.html?pageurl=infrastructure">Infrastructure</a></li>
-                                <li><a href="admin/uploads/Kids%20Academy%20Prospectus%20.pdf"
-                                        target="_blank">Prospectus</a></li>
+                                <li><a href="about_us.php">About School</a></li>
+                                <li><a href="mission.php">Vision and Mission</a></li>
+                                <li><a href="logo.php">Logo of School</a></li>
+                                <li><a href="aim.php">Aims and Objectives</a></li>
+                                <li><a href="infrastructure.php">Infrastructure</a></li>
+                                <!-- <li><a href="admin/uploads/Kids%20Academy%20Prospectus%20.pdf"
+                                        target="_blank">Prospectus</a></li> -->
                             </ul>
                         </li>
 
 
                         <li><a href="javascript:void(0)" class="click_in">Messages</a>
                             <ul class="submenu prospes">
-                                <li><a href="web3d53.html?pageurl=managersms">Director Message</a></li>
-                                <li><a href="web98a5.html?pageurl=principalsms">Principal Message</a></li>
+                                <li><a href="managersms.php">Director Message</a></li>
+                                <li><a href="principalsms.php">Principal Message</a></li>
                             </ul>
                         </li>
 
@@ -595,7 +595,8 @@
 
                         <li><a href="pdf/Calendar%2022-%2023.pdf" target="_blank">School Calendar 2022-23</a> </li>
 
-                        <li><a href="javascript:void(0)" class="click_in">Contact Us</a>
+                        <li>
+                            <a href="javascript:void(0)" class="click_in">Contact Us</a>
                             <ul class="submenu off_bear">
                                 <li><a href="webbdb4.html?pageurl=contact">Mail Us</a></li>
                             </ul>
@@ -607,13 +608,14 @@
         </div>
 
 
-        
-<div class="icos">
-    <div class="icons-in">
-        <ul>
-            <li><a class="soc_iconh soc_icon1 " href="#" title="iPhone mobile app" target="_blank"></a></li>
-            <li><a class="soc_iconh soc_icon3 " href="#" title="Google play store" target="_blank"></a></li>
-            <li><a class="soc_iconh soc_icon4 " href="Menu/ContactDirection/Mail-Us.html" title="Mail Us"></a></li>
-        </ul>
-    </div>
-</div>
+
+        <div class="icos">
+            <div class="icons-in">
+                <ul>
+                    <li><a class="soc_iconh soc_icon1 " href="#" title="iPhone mobile app" target="_blank"></a></li>
+                    <li><a class="soc_iconh soc_icon3 " href="#" title="Google play store" target="_blank"></a></li>
+                    <li><a class="soc_iconh soc_icon4 " href="Menu/ContactDirection/Mail-Us.html" title="Mail Us"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>

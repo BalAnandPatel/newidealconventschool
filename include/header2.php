@@ -697,9 +697,9 @@
                             <div id="logo">
                                 <div class="slogoinner ">
                                     <center>
-                                    <a href="index.php" title="Kids Academy, Prayagraj">
-                                        <img src="schooldata/logo.jpeg" width="160" height="100">
-                                    </a>
+                                        <a href="index.php" title="Kids Academy, Prayagraj">
+                                            <img src="schooldata/logo.jpeg" width="160" height="100">
+                                        </a>
                                     </center>
                                 </div>
                             </div>
@@ -712,7 +712,7 @@
                                     <!-- <li><a href="#">Achievements</a></li> -->
                                     <li><a href="admission.php">Admission</a></li>
                                     <li><a href="download.php">Important Downloads</a></li>
-                                    <li><a href="tc.php">Transfer Certificate</a> </li>
+                                    <!-- <li><a href="tc.php">Transfer Certificate</a> </li> -->
                                     <li><a href="mandatory.php">Mandatory Public Disclosure</a></li>
 
 
@@ -734,54 +734,60 @@
                                 <ul class="dropmenu masterMenu">
                                     <li><a href="javascript:void(0)" class="click_in">about us</a>
                                         <ul class="submenu abu_us">
-
-                                            <li><a href="webedd0.html?pageurl=about_us">About School</a></li>
-
-                                            <li><a href="webf8b1.html?pageurl=mission">Vision and Mission</a></li>
-                                            <li><a href="webc650.html?pageurl=logo">Logo of School</a></li>
-                                            <li><a href="web0c44.html?pageurl=aim">Aims and Objectives</a></li>
-                                            <li><a href="webfacd.html?pageurl=infrastructure">Infrastructure</a></li>
+                                            <li><a href="about_us.php">About School</a></li>
+                                            <li><a href="mission.php">Vision and Mission</a></li>
+                                            <li><a href="logo.php">Logo of School</a></li>
+                                            <li><a href="aim.php">Aims and Objectives</a></li>
+                                            <li><a href="infrastructure.php">Infrastructure</a></li>
                                         </ul>
                                     </li>
 
-                                    <li><a href="javascript:void(0)" class="click_in">Messages</a>
+                                    <li>
+                                        <a href="javascript:void(0)" class="click_in">Messages</a>
                                         <ul class="submenu prospes">
-                                            <li><a href="web3d53.html?pageurl=managersms">Director Message</a></li>
-                                            <li><a href="web98a5.html?pageurl=principalsms">Principal Message</a></li>
+                                            <li><a href="managersms.php">Director Message</a></li>
+                                            <li><a href="principalsms.php">Principal Message</a></li>
 
                                         </ul>
                                     </li>
-                                    <li><a href="javascript:void(0)" class="click_in">Gallery</a>
+
+                                    <li>
+                                        <a href="javascript:void(0)" class="click_in">Gallery</a>
                                         <ul class="submenu prospes">
                                             <li><a href="webe426.html?pageurl=photo-gallery">Photo Gallery</a></li>
                                             <li><a href="web8beb.html?pageurl=videogallery">Video Gallery</a></li>
                                             <li><a href="#">Media Gallery</a></li>
-
-
-
                                         </ul>
                                     </li>
-                                    <li><a href="javascript:void(0)" class="click_in">Kids' Family</a>
+
+                                    <li>
+                                        <a href="javascript:void(0)" class="click_in">Kids' Family</a>
                                         <ul class="submenu prospes">
                                             <li><a href="#">Teachers' Group Photos</a></li>
                                             <li><a href="#">Class Group Photos</a></li>
 
                                         </ul>
                                     </li>
-                                    <li><a href="pdf/Calendar%2022-%2023.pdf" target="_blank">School Calendar
-                                            2022-23</a> </li>
-                                    <li><a href="javascript:void(0)" class="click_in">Contact Us</a>
+
+                                    <li>
+                                        <a href="pdf/Calendar%2022-%2023.pdf" target="_blank">School Calendar
+                                            2022-23
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="javascript:void(0)" class="click_in">Contact Us</a>
                                         <ul class="submenu off_bear">
-
-                                            <li><a href="webbdb4.html?pageurl=contact">Mail Us</a></li>
-
-
+                                            <li>
+                                                <a href="webbdb4.html?pageurl=contact">Mail Us</a>
+                                            </li>
                                         </ul>
                                     </li>
 
                                 </ul>
                             </div>
                         </div>
+                        
                         <div class="icos">
                             <div class="icons-in">
                                 <ul>
@@ -793,6 +799,5 @@
                                 </ul>
                             </div>
                         </div>
-
                     </div>
                 </div>
