@@ -64,7 +64,7 @@ include "include/header2.php"
                                         <tr>
                                             <td>5</td>
                                             <td>PRINCIPAL NAME &amp; QUALIFICATION</td>
-                                            <td></td>
+                                            <td>Raj Bahadur Yadav (M.A. B.Ed)</td>
                                         </tr>
                                         <tr>
                                             <td>6</td>
@@ -74,7 +74,7 @@ include "include/header2.php"
                                         <tr>
                                             <td>7</td>
                                             <td>CONTACT DETAILS (LANDLINE/MOBILE)</td>
-                                            <td>9170149971</td>
+                                            <td>9936276854</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -292,7 +292,7 @@ include "include/header2.php"
                                             <td>
                                                 PRINCIPAL
                                             </td>
-                                            <!-- <td>Manisha Arora</td> -->
+                                            <td>RAJ BAHADUR YADAV</td>
                                         </tr>
                                         <tr>
                                             <td rowspan="4">
@@ -337,7 +337,7 @@ include "include/header2.php"
                                             <td>
                                                 DETAILS OF SPECIAL EDUCATOR
                                             </td>
-                                            <!-- <td>Shailendra Kumar, Diploma in Special Education</td> -->
+                                            <td>Reetu</td>
                                         </tr>
                                         <tr>
                                             <td>
@@ -346,7 +346,7 @@ include "include/header2.php"
                                             <td>
                                                 DETAILS OF COUNSELLOR AND WELLNESS TEACHER
                                             </td>
-                                            <!-- <td>MANISHA ARORA, Diploma in Guidance Counselling</td> -->
+                                            <td>Jay Singh Yadav</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -378,7 +378,7 @@ include "include/header2.php"
                                                 TOTAL CAMPUS AREA OF THE SCHOOL (IN SQ. MTR)
                                             </td>
                                             <td>
-                                                <!-- 6092 SQ. MTR -->
+                                                7103.001 SQ. MTR
                                             </td>
                                         </tr>
                                         <tr>
@@ -401,7 +401,7 @@ include "include/header2.php"
                                                 SQ.MTR)
                                             </td>
                                             <td>
-                                                <!-- 03 (1012 SQ. MTR) -->
+                                                04 (20*30 SQ. MTR)
                                             </td>
                                         </tr>
                                         <tr>
@@ -412,7 +412,7 @@ include "include/header2.php"
                                                 INTERNET FACILITY ( Y / N)
                                             </td>
                                             <td>
-                                                <!-- YES -->
+                                                YES
                                             </td>
                                         </tr>
                                         <tr>
@@ -422,7 +422,7 @@ include "include/header2.php"
                                             <td>
                                                 NO. OF GIRLS TOILETS
                                             </td>
-                                            <!-- <td>6</td> -->
+                                            <td>4</td>
                                         </tr>
                                         <tr>
                                             <td>
@@ -431,7 +431,7 @@ include "include/header2.php"
                                             <td>
                                                 NO. OF BOYS TOILETS
                                             </td>
-                                            <!-- <td>6</td> -->
+                                            <td>4</td>
                                         </tr>
                                         <tr>
                                             <td>
@@ -442,7 +442,7 @@ include "include/header2.php"
                                                 INFRASTRUCTURE OF THE SCHOOL
                                             </td>
                                             <td>
-                                                <!-- <a href="#" target="_blank">YouTube Video</a> -->
+                                                <a href="youtube.com/@newidealconventschool7040" target="_blank">YouTube Video</a>
                                             </td>
                                         </tr>
                                     </tbody>
