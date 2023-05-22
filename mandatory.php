@@ -204,7 +204,7 @@ include "include/header2.php"
                                                 4
                                             </td>
                                             <td>
-                                                LIST OF PARENTS TEACHERS ASSOCIATION (PTA) MAEMBERS
+                                                LIST OF PARENTS TEACHERS ASSOCIATION (PTA) MEMBERS
                                             </td>
                                             <td><a href="#" target="_blank">VIEW</a></td>
                                         </tr>
@@ -292,7 +292,7 @@ include "include/header2.php"
                                             <td>
                                                 PRINCIPAL
                                             </td>
-                                            <td>Manisha Arora</td>
+                                            <!-- <td>Manisha Arora</td> -->
                                         </tr>
                                         <tr>
                                             <td rowspan="4">
@@ -301,25 +301,25 @@ include "include/header2.php"
                                             <td>
                                                 TOTAL NO. OF TEACHERS
                                             </td>
-                                            <td>20</td>
+                                            <!-- <td>20</td> -->
                                         </tr>
                                         <tr>
                                             <td>
                                                 PGT
                                             </td>
-                                            <td>NA</td>
+                                            <!-- <td>NA</td> -->
                                         </tr>
                                         <tr>
                                             <td>
                                                 TGT
                                             </td>
-                                            <td>15</td>
+                                            <!-- <td>15</td> -->
                                         </tr>
                                         <tr>
                                             <td>
                                                 PRT
                                             </td>
-                                            <td>05</td>
+                                            <!-- <td>05</td> -->
                                         </tr>
                                         <tr>
                                             <td>
@@ -328,7 +328,7 @@ include "include/header2.php"
                                             <td>
                                                 TEACHERS SECTION RATIO
                                             </td>
-                                            <td>1:1.5</td>
+                                            <!-- <td>1:1.5</td> -->
                                         </tr>
                                         <tr>
                                             <td>
@@ -337,7 +337,7 @@ include "include/header2.php"
                                             <td>
                                                 DETAILS OF SPECIAL EDUCATOR
                                             </td>
-                                            <td>Shailendra Kumar, Diploma in Special Education</td>
+                                            <!-- <td>Shailendra Kumar, Diploma in Special Education</td> -->
                                         </tr>
                                         <tr>
                                             <td>
@@ -346,7 +346,7 @@ include "include/header2.php"
                                             <td>
                                                 DETAILS OF COUNSELLOR AND WELLNESS TEACHER
                                             </td>
-                                            <td>MANISHA ARORA, Diploma in Guidance Counselling</td>
+                                            <!-- <td>MANISHA ARORA, Diploma in Guidance Counselling</td> -->
                                         </tr>
                                     </tbody>
                                 </table>
@@ -378,7 +378,7 @@ include "include/header2.php"
                                                 TOTAL CAMPUS AREA OF THE SCHOOL (IN SQ. MTR)
                                             </td>
                                             <td>
-                                                6092 SQ. MTR
+                                                <!-- 6092 SQ. MTR -->
                                             </td>
                                         </tr>
                                         <tr>
@@ -389,7 +389,7 @@ include "include/header2.php"
                                                 NO. AND SIZE OF THE CLASS ROOMS (IN SQ. MTR)
                                             </td>
                                             <td>
-                                                12 (1012 SQ. MTR )
+                                                <!-- 12 (1012 SQ. MTR ) -->
                                             </td>
                                         </tr>
                                         <tr>
@@ -401,7 +401,7 @@ include "include/header2.php"
                                                 SQ.MTR)
                                             </td>
                                             <td>
-                                                03 (1012 SQ. MTR)
+                                                <!-- 03 (1012 SQ. MTR) -->
                                             </td>
                                         </tr>
                                         <tr>
@@ -412,7 +412,7 @@ include "include/header2.php"
                                                 INTERNET FACILITY ( Y / N)
                                             </td>
                                             <td>
-                                                YES
+                                                <!-- YES -->
                                             </td>
                                         </tr>
                                         <tr>
@@ -422,7 +422,7 @@ include "include/header2.php"
                                             <td>
                                                 NO. OF GIRLS TOILETS
                                             </td>
-                                            <td>6</td>
+                                            <!-- <td>6</td> -->
                                         </tr>
                                         <tr>
                                             <td>
@@ -431,7 +431,7 @@ include "include/header2.php"
                                             <td>
                                                 NO. OF BOYS TOILETS
                                             </td>
-                                            <td>6</td>
+                                            <!-- <td>6</td> -->
                                         </tr>
                                         <tr>
                                             <td>
@@ -442,7 +442,7 @@ include "include/header2.php"
                                                 INFRASTRUCTURE OF THE SCHOOL
                                             </td>
                                             <td>
-                                                <a href="#" target="_blank">YouTube Video</a>
+                                                <!-- <a href="#" target="_blank">YouTube Video</a> -->
                                             </td>
                                         </tr>
                                     </tbody>

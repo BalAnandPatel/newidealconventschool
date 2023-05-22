@@ -17,7 +17,7 @@ include "include/header2.php";
         <div class="master-cont">
 
             <div class="master_inn">
-                <img src="Images/Director.png" style="float:right;" /><br />
+                <img src="fes" style="float:right;" /><br />
 
                 <b>Welcome to New Ideal Convent School & College.</b><br />
                 <p>Children regardless of their age, class, race or background mostly are not like a Notebook yet to be

@@ -6,6 +6,7 @@ include "include/header2.php";
         <div class="inner-master" id="headtitle">
             <h1 class="mei-heding">
                 Aims And <span>Objectives</span>
+               
             </h1>
         </div>
         <div class="master-cont">
@@ -36,18 +37,6 @@ include "include/header2.php";
 </div>
 </div>
 
-<div class="wrapper">
-    <div class="bottom_sec">
-        <div class="bottom_sec_in">
-            <p>© 2021 Kids Academy, Prayagraj </p>
-
-            <div class="Maintained">
-                <span>Designed & Maintained by :F1 Multi Services
-                </span>
-            </div>
-        </div>
-    </div>
-</div>
 </div>
 </div>
 </div>
@@ -56,9 +45,6 @@ include "include/header2.php";
 
 <div><a href="#" class="back-to-top"></a></div>
 
-</body>
-
-
-<!-- Mirrored from www.kidsacademyprayagraj.com/web.php?pageurl=aim by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 20 May 2023 05:44:28 GMT -->
-
-</html>
+<?php 
+include "include/footer2.php";
+?>

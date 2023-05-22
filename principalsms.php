@@ -17,7 +17,7 @@ include "include/header2.php";
         <div class="master-cont">
 
             <div class="master_inn">
-                <img src="Images/principalkids.jpg" style="float:right;" /><br />
+                <img src="fawa" style="float:right;" /><br />
 
                 <b>
                     “Education is not the amount of information that is put in your brain, we want that education by

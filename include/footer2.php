@@ -1,9 +1,10 @@
 <div class="wrapper">
     <div class="bottom_sec">
         <div class="bottom_sec_in">
-            <!-- <p>© 2021 Kids Academy, Prayagraj </p> -->
             <div class="Maintained">
-                <span>Designed & Maintained by :F1 Multi Services</span>
+                <span>Designed & Maintained by : 
+                    <a href="https://www.glintel.com/" style="color: #fff;"><b>Glintel</b></a>
+                </span>
             </div>
         </div>
     </div>

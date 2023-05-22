@@ -119,7 +119,7 @@ include "include/header.php";
                     <ul>
                         <li>
                             <div class="sld_mng">
-                                <img src="Images/principal1.png" />
+                                <img src="afwda" />
                             </div>
                             <div class="sld_text">
                                 <p>Mrs. Manisha Arora <br /><span>(Academy Principal)</span></p>
@@ -134,7 +134,7 @@ include "include/header.php";
                         </li>
                         <li>
                             <div class="sld_mng">
-                                <img src="Images/Director1.png" />
+                                <img src="daw" />
                             </div>
                             <div class="sld_text">
                                 <p>Mr. Jyoti Arora <br /><span>(Academy Director)</span></p>
@@ -164,23 +164,24 @@ include "include/header.php";
     <div class="short_link">
         <div class="short_link_contant">
             <div class="get_conet">
+                <center>
+                    <ul>
+                        <li><a href="#" target="_blank">
+                                <div class="get_icon get_ico1">Kids’ Corner</div>
+                            </a></li>
+                        <li><a href="#" target="_blank">
+                                <div class="get_icon get_ico2">Campus Tour</div>
+                            </a></li>
+                        <li><a href="#" target="_blank">
+                                <div class="get_icon get_ico3">Vacancies</div>
+                            </a></li>
 
-                <ul>
-                    <li><a href="#" target="_blank">
-                            <div class="get_icon get_ico1">Kids’ Corner</div>
-                        </a></li>
-                    <li><a href="#" target="_blank">
-                            <div class="get_icon get_ico2">Campus Tour</div>
-                        </a></li>
-                    <li><a href="#" target="_blank">
-                            <div class="get_icon get_ico3">Vacancies</div>
-                        </a></li>
 
-
-                    <li><a href="#">
-                            <div class="get_icon get_ico6">Achievments</div>
-                        </a></li>
-                </ul>
+                        <li><a href="#">
+                                <div class="get_icon get_ico6">Achievments</div>
+                            </a></li>
+                    </ul>
+                </center>
             </div>
         </div>
     </div>
@@ -188,7 +189,7 @@ include "include/header.php";
 <div class="wrapper">
     <div class="contant2">
 
-        <div class="stu_birthday">
+        <!-- <div class="stu_birthday">
             <div class="stu_birth_in">
                 <div class="birth_hed">
                     <h1>Today’s <span>Birthdays</span> </h1>
@@ -224,7 +225,7 @@ include "include/header.php";
                 </div>
             </div>
 
-        </div>
+        </div> -->
         <div class="Photo_Gallery">
             <div class="Photo_Gallery_in">
                 <div class="Photo_Gallery_hed">

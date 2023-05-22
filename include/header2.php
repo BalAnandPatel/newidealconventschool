@@ -731,7 +731,7 @@
                             </div>
 
                             <div class="menu" id="menu">
-                                <ul class="dropmenu masterMenu">
+                                <ul class="dropmenu">
                                     <li><a href="javascript:void(0)" class="click_in">about us</a>
                                         <ul class="submenu abu_us">
                                             <li><a href="about_us.php">About School</a></li>
@@ -754,34 +754,38 @@
                                     <li>
                                         <a href="javascript:void(0)" class="click_in">Gallery</a>
                                         <ul class="submenu prospes">
-                                            <li><a href="webe426.html?pageurl=photo-gallery">Photo Gallery</a></li>
-                                            <li><a href="web8beb.html?pageurl=videogallery">Video Gallery</a></li>
-                                            <li><a href="#">Media Gallery</a></li>
+                                            <li><a href="photogallery.php">Photo Gallery</a></li>
+                                            <li><a href="videogallery.php">Video Gallery</a></li>
+                                            <!-- <li><a href="#">Media Gallery</a></li> -->
                                         </ul>
                                     </li>
 
-                                    <li>
+                                    <!-- <li>
                                         <a href="javascript:void(0)" class="click_in">Kids' Family</a>
                                         <ul class="submenu prospes">
                                             <li><a href="#">Teachers' Group Photos</a></li>
                                             <li><a href="#">Class Group Photos</a></li>
 
                                         </ul>
-                                    </li>
+                                    </li> -->
 
-                                    <li>
+                                    <!-- <li>
                                         <a href="pdf/Calendar%2022-%2023.pdf" target="_blank">School Calendar
                                             2022-23
                                         </a>
-                                    </li>
+                                    </li> -->
 
-                                    <li>
+                                    <!-- <li>
                                         <a href="javascript:void(0)" class="click_in">Contact Us</a>
                                         <ul class="submenu off_bear">
                                             <li>
                                                 <a href="webbdb4.html?pageurl=contact">Mail Us</a>
                                             </li>
                                         </ul>
+                                    </li> -->
+
+                                    <li>
+                                        <a href="contact.php">Contact Us</a>
                                     </li>
 
                                 </ul>
