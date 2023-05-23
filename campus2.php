@@ -16,19 +16,19 @@ include "include/header2.php";
 
         </div>
         <div class="txt_bx">
-            <a href='schooldata/24.jpeg' target="_blank" rel='lightbox[roadtrip]'>
+            <a href='schooldata/11.jpeg' target="_blank" rel='lightbox[roadtrip]'>
                 <img src='schooldata/11.jpeg' rel='lightbox[roadtrip]' width='225px' height='225px' />
             </a>
-            <a href='schooldata/25.jpeg' target="_blank" rel='lightbox[roadtrip]'>
+            <a href='schooldata/13.jpeg' target="_blank" rel='lightbox[roadtrip]'>
                 <img src='schooldata/13.jpeg' rel='lightbox[roadtrip]' width='225px' height='225px' />
             </a>
-            <a href='schooldata/26.jpeg' target="_blank" rel='lightbox[roadtrip]'>
+            <a href='schooldata/19.jpeg' target="_blank" rel='lightbox[roadtrip]'>
                 <img src='schooldata/19.jpeg' rel='lightbox[roadtrip]' width='225px' height='225px' />
             </a>
-            <a href='schooldata/27.jpeg' target="_blank" rel='lightbox[roadtrip]'>
+            <a href='schooldata/22.jpeg' target="_blank" rel='lightbox[roadtrip]'>
                 <img src='schooldata/22.jpeg' rel='lightbox[roadtrip]' width='225px' height='225px' />
             </a>
-            <a href='schooldata/28.jpeg' target="_blank" rel='lightbox[roadtrip]'>
+            <a href='schooldata/30.jpeg' target="_blank" rel='lightbox[roadtrip]'>
                 <img src='schooldata/30.jpeg' rel='lightbox[roadtrip]' width='225px' height='225px' />
             </a>
         </div>
