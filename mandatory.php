@@ -94,7 +94,7 @@ include "include/header2.php"
                                                 COPIES OF AFFILIATION/UPGRADATION LETTER AND RECENT EXTENSION
                                                 OF AFFILIATION
                                             </td>
-                                            <td><a href="#" target="_blank">VIEW</a></td>
+                                            <td><a href="schooldata/pdf/affilation.pdf" target="_blank">VIEW</a></td>
                                         </tr>
                                         <tr>
                                             <td>2</td>
@@ -102,7 +102,7 @@ include "include/header2.php"
                                                 COPIES OF SOCIETIES / TRUST / COMPANY REGISTRATION / RENEWAL
                                                 CERTIFICATE.
                                             </td>
-                                            <td><a href="#" target="_blank">VIEW</a></td>
+                                            <td><a href="schooldata/pdf/trust.pdf" target="_blank">VIEW</a></td>
                                         </tr>
                                         <tr>
                                             <td>3</td>
@@ -110,7 +110,7 @@ include "include/header2.php"
                                                 COPY OF NO OBJECTION CERTIFICATE (NOC) ISSUED, BY THE STATE
                                                 GOVT. / UT
                                             </td>
-                                            <td><a href="#" target="_blank">VIEW</a></td>
+                                            <td><a href="schooldata/pdf/noc.pdf" target="_blank">VIEW</a></td>
                                         </tr>
                                         <tr>
                                             <td>4</td>
@@ -119,7 +119,7 @@ include "include/header2.php"
                                                 COPIES OF RECOGNITION CERTIFICATE UNDER RTE ACT, 2009,AND IT’S
                                                 RENEWAL
                                             </td>
-                                            <td><a href="#" target="_blank">VIEW</a></td>
+                                            <td><a href="schooldata/pdf/recognition.pdf" target="_blank">VIEW</a></td>
                                         </tr>
                                         <tr>
                                             <td>5</td>
@@ -127,15 +127,15 @@ include "include/header2.php"
                                                 COPY OF VALID BUILDING SAFETY CERTIFICATE AS PER THE NATIONAL
                                                 BUILDING CODE
                                             </td>
-                                            <td><a href="#" target="_blank">VIEW</a></td>
+                                            <td><a href="schooldata/pdf/pwd.pdf" target="_blank">VIEW</a></td>
                                         </tr>
-                                        <!-- <tr>
+                                        <tr>
                                             <td>6</td>
                                             <td>
                                                 COPY OF VALID FIRE SAFETY CERTIFICATE ISSUED BY THE COMPETENT
                                                 AUTHORITY
                                             </td>
-                                            <td><a href="#" target="_blank">VIEW</a></td>
+                                            <td><a href="schooldata/pdf/fire.pdf" target="_blank">VIEW</a></td>
                                         </tr>
                                         <tr>
                                             <td>7</td>
@@ -144,14 +144,14 @@ include "include/header2.php"
                                                 AFFILIATION/ UPGRADATION/ EXTENTION OF AFFILIATION OR SELF
                                                 CERTIFICATION BY SCHOOL
                                             </td>
-                                            <td><a href="#" target="_blank">VIEW</a></td>
+                                            <td><a href="schooldata/pdf/bsa 1.pdf" target="_blank">VIEW</a></td>
                                         </tr>
                                         <tr>
                                             <td>8</td>
                                             <td>
                                                 COPIES OF VALID WATER, HEALTH AND SANITATION CERTIFICATES
                                             </td>
-                                            <td><a href="pdf/health.pdf" target="_blank">VIEW</a></td>
+                                            <td><a href="schooldata/pdf/water.pdf" target="_blank">VIEW</a></td>
                                         </tr>
                                         <tr>
                                             <td>
@@ -162,7 +162,7 @@ include "include/header2.php"
                                             </td>
                                             <td><a href="#"
                                                     target="_blank">VIEW</a></td>
-                                        </tr> -->
+                                        </tr>
                                     </tbody>
                                 </table>
                                 <br />
@@ -179,7 +179,7 @@ include "include/header2.php"
                                         <tr>
                                             <td>1</td>
                                             <td>FEE STRUCTURE OF THE SCHOOL</td>
-                                            <td><a href="#" target="_blank">VIEW</a></td>
+                                            <td><a href="schooldata/pdf/fee-struc.pdf" target="_blank">VIEW</a></td>
                                         </tr>
                                         <tr>
                                             <td>
@@ -188,7 +188,7 @@ include "include/header2.php"
                                             <td>
                                                 ANNUAL ACADEMIC CALENDAR
                                             </td>
-                                            <td><a href="#" target="_blank">VIEW</a></td>
+                                            <td><a href="schooldata/pdf/calendar22-23.pdf" target="_blank">VIEW</a></td>
                                         </tr>
                                         <tr>
                                             <td>
@@ -197,7 +197,7 @@ include "include/header2.php"
                                             <td>
                                                 LIST OF SCHOOL MANAGEMENT COMMITTEE(SMC)
                                             </td>
-                                            <td><a href="#" target="_blank">VIEW</a></td>
+                                            <td><a href="schooldata/pdf/smc.pdf" target="_blank">VIEW</a></td>
                                         </tr>
                                         <tr>
                                             <td>
@@ -389,7 +389,7 @@ include "include/header2.php"
                                                 NO. AND SIZE OF THE CLASS ROOMS (IN SQ. MTR)
                                             </td>
                                             <td>
-                                                <!-- 12 (1012 SQ. MTR ) -->
+                                                19 (25*20 SQ. MTR )
                                             </td>
                                         </tr>
                                         <tr>
