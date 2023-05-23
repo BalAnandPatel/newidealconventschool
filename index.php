@@ -227,11 +227,11 @@ include "include/header.php";
                 <div class="Photo_Gallery_hed">
                     <h1>Photo <span>Gallery</span></h1>
                     <p class="view_all_new"><a href="photogallery.php">view All</a></p>
-                    <span id="lblphoto">
+                    <!-- <span id="lblphoto">
                         <p class=first_new>The Year End Presentation...
-                    </span>
+                    </span> -->
                 </div>
-                <div class="gallry_run">
+                <div class="gallry_run" style="padding-bottom: 10px;">
 
                     <div class="gallry-slid" id="gallry">
                         <ul>
