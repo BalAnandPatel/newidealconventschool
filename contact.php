@@ -20,28 +20,14 @@ include "include/header2.php";
 
             <div class="master_inn">
 
-                <b>Contact Us by sending mail.</b><br />
-                <br>
-                <label for="fname">Full Name: </label><br>
-                <input type="text" name="fname" style="width: 100%;height: 30px;">
-
-                <div style="display: flex;">
-                    <div style="width: 50%;">
-                        <br><br>
-                        <label for="contact">Contact: </label><br>
-                        <input type="text" name="contact" style="width: 95%; height: 30px;">
-                    </div>
-
-                    <div style="width: 50%;">
-                        <br><br>
-                        <label for="email">Email: </label><br>
-                        <input type="email" name="email" style="width: 95%; height: 30px;">
-                    </div>
-                </div>
-
+                <h1>
+                &#9993; Email: newidealconventschool@gmail.com
                 <br><br>
-                <label for="message">Messaeg: </label><br>
-                <textarea class="message" rows="10"></textarea>
+                &#128222; Phone: 9936276854
+                <br><br>
+                &#9899; Address: Itahara Border, NH-31, Mungra Badshahpur, Jaunpur, U.P., India
+
+                </h1>
 
             </div>
         </div>
@@ -52,15 +38,7 @@ include "include/header2.php";
 </div>
 </div>
 
-<style>
-    .message {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
 
-    width: 100%;
-}
-</style>
 
 <div><a href="#" class="back-to-top"></a></div>
 

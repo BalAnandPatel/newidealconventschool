@@ -34,7 +34,7 @@ include "include/header2.php";
                         <h4>6 photos</h4>
                     </div>
 
-                    <div class='folder_holder' id=1>
+                    <!-- <div class='folder_holder' id=1>
                         <a href='web94e1.php?pageurl=photos&amp;title=Quiz%20Contest'>
                             <div class='folder_holder_img' id='folder_1'>
                                 <img id='1' src='Photogallery/73079389.jpg' width='200' height='200'>
@@ -113,7 +113,7 @@ include "include/header2.php";
                         </h3>
                         <h4>20 photos</h4>
                         <h2> </h2>
-                    </div>
+                    </div> -->
 
                 </div>
             </div>

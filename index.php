@@ -12,16 +12,16 @@ include "include/header.php";
     </div>
 </div>
 
-<div class="oasis-tab">
+<!-- <div class="oasis-tab">
     <a href="marks/teacher.html" target="_blank"> Staff Login</a>
 </div>
 
-<!-- <div class="oasis-tab"></div> -->
+<div class="oasis-tab"></div>
 <div class="oasis-tab" style="margin-top:60px;">
     <a href="#" target="_blank">Admission Enquiry</a>
 </div>
 
-<div class="oasis-tab" style="margin-top:60px;"></div>
+<div class="oasis-tab" style="margin-top:60px;"></div> -->
 
 <div class="wrapper">
 
@@ -48,7 +48,7 @@ include "include/header.php";
             <div class="news_notic_in">
                 <div class="notic_hed">
                     <h1>News & <span>Notice</span>
-                        <span class="view_ll"><a href='Menu/Notices/AllNotice.html'>view All</a></span>
+                        <span class="view_ll"><a href='#'>view All</a></span>
                     </h1>
                 </div>
                 <div class="news_run">
@@ -56,7 +56,7 @@ include "include/header.php";
                         <ul>
                             <li>
                                 <p>
-                                    <a style='color:white;' href='webb9b1.html?pageurl=news&amp;id=1'>Happy Dussehra</a>
+                                    <a style='color:white;' href='#'>Happy Dussehra</a>
                                 </p>
                                 <span>Updated On: 2022-10-05 10:31:35</span>
                             </li>
@@ -84,7 +84,7 @@ include "include/header.php";
             <div class="up_event_in">
                 <div class="event_hed">
                     <h1>Upcoming <span>events</span>
-                        <p class="view_all"><a href="webb6af.html?pageurl=allevent">view All</a></p>
+                        <p class="view_all"><a href="#">view All</a></p>
                     </h1>
                 </div>
                 <div class="event_run">
@@ -119,32 +119,32 @@ include "include/header.php";
                     <ul>
                         <li>
                             <div class="sld_mng">
-                                <img src="afwda" />
+                                <img src="schooldata/principal-c.jpeg" style="border-radius: 50%;border: 3px solid blue;"/>
                             </div>
                             <div class="sld_text">
-                                <p>Mrs. Manisha Arora <br /><span>(Academy Principal)</span></p>
+                                <p>Mrs. Raj Bahadur Yadav<br /><span>(Principal)</span></p>
                                 <p class="text_change">
                                     Thus education is not merely acquisition of information or skills but transformation
                                     of ...
                                 </p>
                             </div>
                             <div class="read_m">
-                                <a href="web98a5.html?pageurl=principalsms">read more</a>
+                                <a href="principalsms.php">read more</a>
                             </div>
                         </li>
                         <li>
                             <div class="sld_mng">
-                                <img src="daw" />
+                                <img src="schooldata/director-c.png" style="border-radius: 50%;border: 3px solid blue;"/>
                             </div>
                             <div class="sld_text">
-                                <p>Mr. Jyoti Arora <br /><span>(Academy Director)</span></p>
+                                <p>Mr. Amar Bahadur Yadav<br/><span>(Director)</span></p>
                                 <p class="text_change">
                                     Children regardless of their age, class, race or background mostly are not like a
                                     Notebook...
                                 </p>
                             </div>
                             <div class="read_m">
-                                <a href="web3d53.html?pageurl=managersms">Read more</a>
+                                <a href="managersms.php">Read more</a>
                             </div>
                         </li>
                     </ul>
@@ -166,17 +166,15 @@ include "include/header.php";
             <div class="get_conet">
                 <center>
                     <ul>
-                        <li><a href="#" target="_blank">
+                        <li><a href="#">
                                 <div class="get_icon get_ico1">Kids’ Corner</div>
                             </a></li>
-                        <li><a href="#" target="_blank">
+                        <li><a href="#">
                                 <div class="get_icon get_ico2">Campus Tour</div>
                             </a></li>
-                        <li><a href="#" target="_blank">
+                        <li><a href="#">
                                 <div class="get_icon get_ico3">Vacancies</div>
                             </a></li>
-
-
                         <li><a href="#">
                                 <div class="get_icon get_ico6">Achievments</div>
                             </a></li>
@@ -230,7 +228,7 @@ include "include/header.php";
             <div class="Photo_Gallery_in">
                 <div class="Photo_Gallery_hed">
                     <h1>Photo <span>Gallery</span></h1>
-                    <p class="view_all_new"><a href="#">view All</a></p>
+                    <p class="view_all_new"><a href="photogallery.php">view All</a></p>
                     <span id="lblphoto">
                         <p class=first_new>The Year End Presentation... <b>Updated on:</b> 14-Feb-2020</p>
                     </span>
@@ -240,7 +238,8 @@ include "include/header.php";
                     <div class="gallry-slid" id="gallry">
                         <ul>
                             <span id="homephotog_LBPhoto">
-                                <li> <a href='#'><img src='#' /></a> </li>
+                                <li> <a href='#'><img src='schooldata/10.jpeg' style="width: 100%;border-radius:10%;" /></a> </li>
+                                <li> <a href='#'><img src='schooldata/12.jpeg' style="width: 100%;border-radius:10%;" /></a> </li>
                             </span>
                         </ul>
                     </div>
@@ -273,7 +272,7 @@ include "include/header.php";
                     <li><a class="soc_iconh soc_icons6 " href="#" title="Youtube" target="_blank"></a></li>
                 </ul>
             </div>
-            <div class="Maintained">
+            <div class="Maintained1">
                 <span>Designed & Maintained by :
                     <a href="#" target="_blank" title="An Educational Technology Consultant">
                         Glintel Technologies

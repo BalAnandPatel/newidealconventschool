@@ -227,7 +227,7 @@ include "include/header2.php";
                                             principal, so parents can have an interaction with the head of the School,
                                             ask questions and collect any information they require. This can Be done by
                                             fixing prior appointment with the foe through mail, at newidealconventschool@gmail.com
-                                            or Call 9170149971.
+                                            or Call 9936276854.
                                         </td>
                                     </tr>
                                 </table>

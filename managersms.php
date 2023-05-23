@@ -17,14 +17,23 @@ include "include/header2.php";
         <div class="master-cont">
 
             <div class="master_inn">
-                <img src="fes" style="float:right;" /><br />
+                <div style="float:right;width:40%;">
+                    <img src="schooldata/director.png" style="width:100%;" /><br />
+                    <center>
+                        <span>
+                            <strong>Mr. Amar Bahadur Yadav<br>(Director)</strong><br>
+                            New Ideal Convent School & College.
+                        </span>
+                    </center>
+                </div>
 
                 <b>Welcome to New Ideal Convent School & College.</b><br />
                 <p>Children regardless of their age, class, race or background mostly are not like a Notebook yet to be
                     written upon as is mistakenly believed each child has his own individuality and his special skills
                     and talents. A good education system helps a child to nurture his talents and overcome his short
                     comings only by providing appropriate and compassioning education that will lead to the all-round
-                    development of their personality. We created New Ideal Convent School & College with the vision to provide an excellent
+                    development of their personality. We created New Ideal Convent School & College with the vision to
+                    provide an excellent
                     opportunity to the students and the parents looking for holistic development. We are proud to have a
                     dedicated team of teachers who are experts in their respective subjects from a humble beginning, we
                     have now grown into a full fledged school education service provider. I wish to thank students,
@@ -33,10 +42,6 @@ include "include/header2.php";
                     time. Happy learning and happy career building.
                 </p>
                 <br>
-                <span>
-                    <strong>Mr. JYOTI ARORA<br>(Director)</strong><br>
-                    New Ideal Convent School & College.
-                </span>
             </div>
         </div>
     </div>

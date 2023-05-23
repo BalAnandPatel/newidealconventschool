@@ -442,7 +442,7 @@ include "include/header2.php"
                                                 INFRASTRUCTURE OF THE SCHOOL
                                             </td>
                                             <td>
-                                                <a href="youtube.com/@newidealconventschool7040" target="_blank">YouTube Video</a>
+                                                <a href="https://www.youtube.com/@newidealconventschool7040" target="_blank">YouTube Video</a>
                                             </td>
                                         </tr>
                                     </tbody>

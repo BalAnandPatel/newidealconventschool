@@ -17,7 +17,15 @@ include "include/header2.php";
         <div class="master-cont">
 
             <div class="master_inn">
-                <img src="fawa" style="float:right;" /><br />
+                <div style="float:right;width:25%;">
+                    <img src="schooldata/principal.jpeg" style="width:100%" /><br />
+                    <center>
+                        <span>
+                            <strong>Mrs. Raj Bahadur Yadav<br>(Principal)</strong><br />
+                            New Ideal Convent School & College.
+                        </span>
+                    </center>
+                </div>
 
                 <b>
                     “Education is not the amount of information that is put in your brain, we want that education by
@@ -30,7 +38,8 @@ include "include/header2.php";
                 personality of an individual. It is training in citizenship. It is a process of sowing within the
                 individual seeds of values, of simplicity, and service and helping him/her to blossom into a beautiful
                 human being. It is with this aim of building a better tomorrow by creating socially sensitive and
-                responsible citizens of character and integrity New Ideal Convent School & College, provides every platform to its students
+                responsible citizens of character and integrity New Ideal Convent School & College, provides every
+                platform to its students
                 to explore, to discover, to create, and to grow into original thinkers, innovative scientists, creative
                 artists, preservers of nature and above all the finest human beings who will serve their country and the
                 world. <br>
@@ -43,10 +52,6 @@ include "include/header2.php";
                 create a better world.
                 </p>
                 <br />
-                <span>
-                    <strong>Mrs. Manisha Arora<br>(Principal )</strong><br />
-                    New Ideal Convent School & College.
-                </span>
             </div>
         </div>
     </div>
