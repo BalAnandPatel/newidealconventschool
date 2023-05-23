@@ -526,7 +526,7 @@
                 <div class="logo">
                     <div id="logo">
                         <div class="slogoinner ">
-                            <a href="index.php" title="Kids Academy, Prayagraj">
+                            <a href="index.php" title="">
                                 <img src="schooldata/logo.jpeg" alt="logo" width="160" height="100">
                                 <!-- <iframe src="" frameborder="0" width="240" height="100"
                                     class="logo_main"></iframe> -->

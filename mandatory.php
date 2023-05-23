@@ -199,7 +199,7 @@ include "include/header2.php"
                                             </td>
                                             <td><a href="schooldata/pdf/smc.pdf" target="_blank">VIEW</a></td>
                                         </tr>
-                                        <tr>
+                                        <!-- <tr>
                                             <td>
                                                 4
                                             </td>
@@ -208,7 +208,7 @@ include "include/header2.php"
                                             </td>
                                             <td><a href="#" target="_blank">VIEW</a></td>
                                         </tr>
-                                        <tr>
+                                        <tr> -->
                                             <td>
                                                 5
                                             </td>

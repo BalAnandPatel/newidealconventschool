@@ -700,7 +700,7 @@
                             <div id="logo">
                                 <div class="slogoinner ">
                                     <center>
-                                        <a href="index.php" title="Kids Academy, Prayagraj">
+                                        <a href="index.php" title="">
                                             <img src="schooldata/logo.jpeg" width="160" height="100">
                                         </a>
                                     </center>
