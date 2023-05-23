@@ -120,7 +120,7 @@ include "include/header.php";
                                 <img src="schooldata/principal-c.jpeg" style="border-radius: 50%;border: 3px solid blue;"/>
                             </div>
                             <div class="sld_text">
-                                <p>Mrs. Raj Bahadur Yadav<br /><span>(Principal)</span></p>
+                                <p>Mr. Raj Bahadur Yadav<br /><span>(Principal)</span></p>
                                 <p class="text_change">
                                     Thus education is not merely acquisition of information or skills but transformation
                                     of ...
@@ -228,7 +228,7 @@ include "include/header.php";
                     <h1>Photo <span>Gallery</span></h1>
                     <p class="view_all_new"><a href="photogallery.php">view All</a></p>
                     <span id="lblphoto">
-                        <p class=first_new>The Year End Presentation... <b>Updated on:</b> 14-Feb-2020</p>
+                        <p class=first_new>The Year End Presentation...
                     </span>
                 </div>
                 <div class="gallry_run">
@@ -236,8 +236,8 @@ include "include/header.php";
                     <div class="gallry-slid" id="gallry">
                         <ul>
                             <span id="homephotog_LBPhoto">
-                                <li> <a href='#'><img src='schooldata/10.jpeg' style="width: 100%;border-radius:10%;" /></a> </li>
-                                <li> <a href='#'><img src='schooldata/12.jpeg' style="width: 100%;border-radius:10%;" /></a> </li>
+                                <li> <a href='#'><img src='schooldata/21.jpeg' style="width: 100%;border-radius:10%;" /></a> </li>
+                                <li> <a href='#'><img src='schooldata/18.jpeg' style="width: 100%;border-radius:10%;" /></a> </li>
                             </span>
                         </ul>
                     </div>
