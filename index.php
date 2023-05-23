@@ -267,7 +267,7 @@ include "include/header.php";
                     <li><a class="soc_iconh soc_icons3 " href="#" title="Google+"></a></li>
                     <li><a class="soc_iconh soc_icons4 " href="#" title="Linkedin"></a></li>
                     <li><a class="soc_iconh soc_icons5 " href="#" title="Instagram"></a></li>
-                    <li><a class="soc_iconh soc_icons6 " href="#" title="Youtube"></a></li>
+                    <li><a class="soc_iconh soc_icons6 " href="https://www.youtube.com/@newidealconventschool7040" target="_blank" title="Youtube"></a></li>
                 </ul>
             </div>
             <div class="Maintained1">

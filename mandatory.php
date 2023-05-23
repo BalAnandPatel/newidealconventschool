@@ -210,7 +210,7 @@ include "include/header2.php"
                                         </tr>
                                         <tr> -->
                                             <td>
-                                                5
+                                                4
                                             </td>
                                             <td>
                                                 LAST THREE-YEAR RESULT OF THE BOARD EXAMINATION AS PER
