@@ -301,25 +301,25 @@ include "include/header2.php"
                                             <td>
                                                 TOTAL NO. OF TEACHERS
                                             </td>
-                                            <!-- <td>20</td> -->
+                                            <td>36</td>
                                         </tr>
                                         <tr>
                                             <td>
                                                 PGT
                                             </td>
-                                            <!-- <td>NA</td> -->
+                                            <td>09</td>
                                         </tr>
                                         <tr>
                                             <td>
                                                 TGT
                                             </td>
-                                            <!-- <td>15</td> -->
+                                            <td>18</td>
                                         </tr>
                                         <tr>
                                             <td>
                                                 PRT
                                             </td>
-                                            <!-- <td>05</td> -->
+                                            <td>07</td>
                                         </tr>
                                         <tr>
                                             <td>
