@@ -28,12 +28,30 @@ include "include/header2.php";
                         <a href='laboratory.php?pageurl=lab'>
                             <div class='folder_holder_img' id='folder_01'>
                                 <img id='1' src='schooldata/24.jpeg' width='200' height='200'>
-                                <img id='1' src='schooldata/25.jpeg' width='200' height='200'>
-                                <img id='1' src='schooldata/26.jpeg' width='200' height='200'>
                             </div>
                         </a>
                         <h3><a href='laboratory.php?pageurl=lab'>Laboratory</a></h3>
                         <h4>6 photos</h4>
+                    </div>
+
+                    <div class='folder_holder' id=02>
+                        <a href='campus1.php?pageurl=campus'>
+                            <div class='folder_holder_img' id='folder_02'>
+                                <img id='1' src='schooldata/2.jpeg' width='200' height='200'>
+                            </div>
+                        </a>
+                        <h3><a href='campus1.php?pageurl=campus'>Campus 1</a></h3>
+                        <h4>6 photos</h4>
+                    </div>
+
+                    <div class='folder_holder' id=03>
+                        <a href='campus2.php?pageurl=campus'>
+                            <div class='folder_holder_img' id='folder_03'>
+                                <img id='1' src='schooldata/21.jpeg' width='200' height='200'>
+                            </div>
+                        </a>
+                        <h3><a href='campus2.php?pageurl=campus'>Campus 2</a></h3>
+                        <h4>5 photos</h4>
                     </div>
 
                     <!-- <div class='folder_holder' id=1>
