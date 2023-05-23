@@ -29,12 +29,10 @@ include "include/header.php";
         <div class="contant">
             <div class="about_schl_in">
                 <h1>about <span>school</span> </h1>
-                <p>
+                <p style="color: #fff !important">
                     New Ideal Convent School & College is an amicable school where students enjoy learning.
                     It follows a co-education system of education from classes 1 to 12th based on the CCC norms of the
-                    CBSE. Founded in the year 2006, it is situated on Itahara Border, NH-31, Mungra Badshahpur, Jaunpur,
-                    U.P., India. New Ideal Convent School & College ensures a holistic approach towards development of
-                    the...
+                    CBSE. Founded in the year 2006, it is situated on Itahara Border, ...
                     <span class="read_more">
                         <a href="about_us.php">read more</a>
                     </span>
@@ -264,18 +262,18 @@ include "include/header.php";
             <p> New Ideal Convent School & College. All Rights Reserved.</p>
             <div class="bottom_sec_icon">
                 <ul>
-                    <li><a class="soc_iconh soc_icons1 " href="#" title="Facebook" target="_blank"></a></li>
-                    <li><a class="soc_iconh soc_icons2 " href="#" title="Twitter" target="_blank"></a></li>
-                    <li><a class="soc_iconh soc_icons3 " href="#" title="Google+" target="_blank"></a></li>
-                    <li><a class="soc_iconh soc_icons4 " href="#" title="Linkedin" target="_blank"></a></li>
-                    <li><a class="soc_iconh soc_icons5 " href="#" title="Instagram" target="_blank"></a></li>
-                    <li><a class="soc_iconh soc_icons6 " href="#" title="Youtube" target="_blank"></a></li>
+                    <li><a class="soc_iconh soc_icons1 " href="#" title="Facebook"></a></li>
+                    <li><a class="soc_iconh soc_icons2 " href="#" title="Twitter"></a></li>
+                    <li><a class="soc_iconh soc_icons3 " href="#" title="Google+"></a></li>
+                    <li><a class="soc_iconh soc_icons4 " href="#" title="Linkedin"></a></li>
+                    <li><a class="soc_iconh soc_icons5 " href="#" title="Instagram"></a></li>
+                    <li><a class="soc_iconh soc_icons6 " href="#" title="Youtube"></a></li>
                 </ul>
             </div>
             <div class="Maintained1">
                 <span>Designed & Maintained by :
-                    <a href="#" target="_blank" title="An Educational Technology Consultant">
-                        Glintel Technologies
+                    <a href="https://www.glintel.com/" target="_blank" style="color: #fff !important">
+                        <b>Glintel.com</b>
                     </a>
                 </span>
             </div>

@@ -23,7 +23,7 @@ include "include/header2.php";
                     <tr>
                         <td>Prospectus </td>
                         <td>New Ideal Convent School & College Prospectus</td>
-                        <td align="center"><a href="#" target="_blank">View</span></a></td>
+                        <td align="center"><a href="#">View</span></a></td>
                     </tr>
                 </table>
             </div>

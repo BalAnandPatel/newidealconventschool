@@ -21,7 +21,7 @@ include "include/header2.php";
                     <img src="schooldata/principal.jpeg" style="width:100%" /><br />
                     <center>
                         <span>
-                            <strong>Mrs. Raj Bahadur Yadav<br>(Principal)</strong><br />
+                            <strong>Mr. Raj Bahadur Yadav<br>(Principal)</strong><br />
                             New Ideal Convent School & College.
                         </span>
                     </center>

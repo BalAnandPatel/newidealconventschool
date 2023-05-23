@@ -798,10 +798,8 @@
                         <div class="icos">
                             <div class="icons-in">
                                 <ul>
-                                    <li><a class="soc_iconh soc_icon1 " href="#" title="iPhone mobile app"
-                                            target="_blank"></a></li>
-                                    <li><a class="soc_iconh soc_icon3 " href="#" title="Google play store"
-                                            target="_blank"></a></li>
+                                    <li><a class="soc_iconh soc_icon1 " href="#" title="iPhone mobile app"></a></li>
+                                    <li><a class="soc_iconh soc_icon3 " href="#" title="Google play store"></a></li>
                                     <li><a class="soc_iconh soc_icon4 " href="#" title="Mail Us"></a></li>
                                 </ul>
                             </div>
