@@ -758,7 +758,7 @@
                                         <a href="javascript:void(0)" class="click_in">Gallery</a>
                                         <ul class="submenu prospes">
                                             <li><a href="photogallery.php">Photo Gallery</a></li>
-                                            <li><a href="videogallery.php">Video Gallery</a></li>
+                                            <!-- <li><a href="videogallery.php">Video Gallery</a></li> -->
                                             <!-- <li><a href="#">Media Gallery</a></li> -->
                                         </ul>
                                     </li>

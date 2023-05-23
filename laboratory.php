@@ -11,8 +11,7 @@ include "include/header2.php";
         <div class="inner-master" id="headtitle">
 
             <h1 class="mei-heding">
-
-                Quiz Contest
+                Laboratory
             </h1>
 
         </div>

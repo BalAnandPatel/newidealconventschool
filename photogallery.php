@@ -25,12 +25,14 @@ include "include/header2.php";
                 <div id="album_wrapper">
 
                     <div class='folder_holder' id=01>
-                        <a href='library.php?pageurl=lab'>
+                        <a href='laboratory.php?pageurl=lab'>
                             <div class='folder_holder_img' id='folder_01'>
                                 <img id='1' src='schooldata/24.jpeg' width='200' height='200'>
+                                <img id='1' src='schooldata/25.jpeg' width='200' height='200'>
+                                <img id='1' src='schooldata/26.jpeg' width='200' height='200'>
                             </div>
                         </a>
-                        <h3><a href='web94e1.php?pageurl=photos&amp;title=Quiz%20Contest'>Library</a></h3>
+                        <h3><a href='laboratory.php?pageurl=lab'>Laboratory</a></h3>
                         <h4>6 photos</h4>
                     </div>
 
