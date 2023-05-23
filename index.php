@@ -8,6 +8,7 @@ include "include/header.php";
             <li><img src="schooldata/6.jpeg" alt="New Ideal Convent School & College" /></li>
             <li><img src="schooldata/7.jpeg" alt="New Ideal Convent School & College" /></li>
             <li><img src="schooldata/8.jpeg" alt="New Ideal Convent School & College" /></li>
+            <li><img src="schooldata/banner1.png" alt="New Ideal Convent School & College" /></li>
         </ul>
     </div>
 </div>
@@ -117,7 +118,7 @@ include "include/header.php";
                     <ul>
                         <li>
                             <div class="sld_mng">
-                                <img src="schooldata/principal-c.jpeg" style="border-radius: 50%;border: 3px solid blue;"/>
+                                <img src="schooldata/director-c.png" style="border-radius: 50%;border: 3px solid blue;"/>
                             </div>
                             <div class="sld_text">
                                 <p>Mr. Raj Bahadur Yadav<br /><span>(Principal)</span></p>
@@ -132,7 +133,7 @@ include "include/header.php";
                         </li>
                         <li>
                             <div class="sld_mng">
-                                <img src="schooldata/director-c.png" style="border-radius: 50%;border: 3px solid blue;"/>
+                                <img src="schooldata/principal-c.jpeg" style="border-radius: 50%;border: 3px solid blue;"/>
                             </div>
                             <div class="sld_text">
                                 <p>Mr. Amar Bahadur Yadav<br/><span>(Director)</span></p>

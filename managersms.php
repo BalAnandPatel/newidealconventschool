@@ -17,8 +17,8 @@ include "include/header2.php";
         <div class="master-cont">
 
             <div class="master_inn">
-                <div style="float:right;width:40%;">
-                    <img src="schooldata/director.png" style="width:100%;" /><br />
+                <div style="float:right;width:25%;">
+                    <img src="schooldata/principal.jpeg" style="width:100%;" /><br />
                     <center>
                         <span>
                             <strong>Mr. Amar Bahadur Yadav<br>(Director)</strong><br>
