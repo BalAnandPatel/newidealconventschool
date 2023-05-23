@@ -236,8 +236,8 @@ include "include/header.php";
                     <div class="gallry-slid" id="gallry">
                         <ul>
                             <span id="homephotog_LBPhoto">
-                                <li> <a href='#'><img src='schooldata/21.jpeg' style="width: 100%;border-radius:10%;" /></a> </li>
-                                <li> <a href='#'><img src='schooldata/18.jpeg' style="width: 100%;border-radius:10%;" /></a> </li>
+                                <li> <a href='#'><img src='schooldata/21.jpeg' style="width: 100%;height: 100%;border-radius:10%;" /></a> </li>
+                                <li> <a href='#'><img src='schooldata/18.jpeg' style="width: 100%;height: 100%;border-radius:10%;" /></a> </li>
                             </span>
                         </ul>
                     </div>
