@@ -8,7 +8,7 @@ include "include/header.php";
             <li><img src="schooldata/6.jpeg" alt="New Ideal Convent School & College" /></li>
             <li><img src="schooldata/7.jpeg" alt="New Ideal Convent School & College" /></li>
             <li><img src="schooldata/8.jpeg" alt="New Ideal Convent School & College" /></li>
-            <li><img src="schooldata/banner1.png" alt="New Ideal Convent School & College" /></li>
+            <li><img src="schooldata/slide.png" alt="New Ideal Convent School & College" /></li>
         </ul>
     </div>
 </div>
