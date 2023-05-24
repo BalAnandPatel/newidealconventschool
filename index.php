@@ -274,7 +274,7 @@ include "include/header.php";
             <div class="Maintained1">
                 <span>Designed & Maintained by :
                     <a href="https://www.glintel.com/" target="_blank" style="color: #fff !important">
-                        <b>Glintel.com</b>
+                        <b>Glintel Technologies</b>
                     </a>
                 </span>
             </div>

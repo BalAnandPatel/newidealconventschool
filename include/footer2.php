@@ -6,7 +6,7 @@
                     New Ideal Convent School & College. All Rights Reserved.
                 </span><br>
                 <span>Designed & Maintained by :
-                    <a href="https://www.glintel.com/" target="_blank" style="color: #fff;"><b>Glintel.com</b></a>
+                    <a href="https://www.glintel.com/" target="_blank" style="color: #fff;"><b>Glintel Technologies</b></a>
                 </span>
             </div>
         </div>
